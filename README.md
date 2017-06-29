@@ -11,9 +11,12 @@
 
 ## Outline
 
+### [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
+
 ### Week 0: *Home Setup*
 - Text Editors
 - Basic Command Line Usage
+  - Fish
 - Package Managers
 - Daily Bruin Technology Overview (and software you need to download!)
 - Pre-survey
@@ -67,16 +70,65 @@
 - Intro to Flatpages
 
 ### Week 3
+- Review: Week 2
+- What is Javascript and How Does it Fit in?
+  - History of Javascript
+  - Current Versions of ECMAScript
+- Hello World (again)
+- A Brief Overview of Javascript Features
+  - Variables
+    - Types
+  - Control Flow
+  - Loops
+  - Functions
+  - Expressions
+
 Basic Javascript, jQuery, The Stack, d3
 
 ### Week 4
-Basic PHP, Wordpress, caeruleum and dailybruin.com
+- Review: Week 3
+- PHP
+- Wordpress
+- dailybruin.com
 
 ### Week 5
-Servers: Python, Django, RESTful APIs, JSON, meow, Bruinwalk
+- Review: Week 4
+- Web Server Review
+- RESTful APIs
+- JSON
+- Python
+- Python Web Frameworks
+- Flask
+- Django
+- SQL
+- Caching
+  - memcached
+  - Redis
+- meow
+
+- Bruinwalk
+
 
 ### Week 6
-Backend Javascript: Node, Express,
+- Review: Week 5
+- Node.js
+- Express.js
+- MongoDB
+- npm
 
 ### Week 7
-Advanced Javascript: React, Webpack, Kaleidoscope
+- React
+- Webpack
+- Kaleidoscope
+- Other Web Development Topics Not Covered
+  - Ruby on Rails
+  - C#, Java, Go
+
+
+### Deployment
+- DigitalOcean
+- CI/
+- Docker
+- Web Servers
+  - Apache/Nginx
+- TLS/SSL, HTTPS
