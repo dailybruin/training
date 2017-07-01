@@ -31,6 +31,13 @@
   - Common Elements
   - Good Practices
   - Element References
+- Git
+  - Configuration
+  - Creating Repositories
+  - Cloning Repositories
+  - Making Changes
+    - Staging
+  - GUIs
 - CSS
   - Styling Hello World
   - Common Properties
@@ -42,13 +49,6 @@
   - Values and Units
   - Cascade and Inheritance
   - The Box Model
-- Git
-  - Configuration
-  - Creating Repositories
-  - Cloning Repositories
-  - Making Changes
-    - Staging
-  - GUIs
 - Homework 1 - A Personal Site
   - Addendum: Github Pages
 
@@ -82,13 +82,23 @@
   - Loops
   - Functions
   - Expressions
-
-Basic Javascript, jQuery, The Stack, d3
+- jQuery
+- d3
+- The Stack
 
 ### Week 4
 - Review: Week 3
 - PHP
+  - [The Basics](http://www.phptherightway.com/pages/The-Basics.html)
 - Wordpress
+  - What is Wordpress?
+  - Admin Panel
+  - Themes
+  - Theme Development
+    - Anatomy of a theme
+      - Stylesheet
+      - Template Files
+      - The Loop
 - dailybruin.com
 
 ### Week 5
@@ -97,13 +107,11 @@ Basic Javascript, jQuery, The Stack, d3
 - RESTful APIs
 - JSON
 - Python
+  - 
 - Python Web Frameworks
-- Flask
-- Django
+  - Flask
+  - Django
 - SQL
-- Caching
-  - memcached
-  - Redis
 - meow
 
 - Bruinwalk
@@ -123,12 +131,3 @@ Basic Javascript, jQuery, The Stack, d3
 - Other Web Development Topics Not Covered
   - Ruby on Rails
   - C#, Java, Go
-
-
-### Deployment
-- DigitalOcean
-- CI/
-- Docker
-- Web Servers
-  - Apache/Nginx
-- TLS/SSL, HTTPS
