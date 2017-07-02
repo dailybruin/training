@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Online Training Syllabus
 
 *Daily Bruin Online, Fall 2017*
