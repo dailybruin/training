@@ -136,8 +136,14 @@ Let's make some directories of our own! Type `mkdir` followed by the name of the
 
 ### cat (Concatenate)
 
+`cat` prints things out to the terminal. If you give it multiple files, it will concatenate and print out the contents of all the files given.
+
 ```shell
 › cat file1
+```
+
+```shell
+› cat file1 file2 file3
 ```
 
 ### man (Manual)
