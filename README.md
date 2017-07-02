@@ -107,7 +107,7 @@
 - RESTful APIs
 - JSON
 - Python
-  - 
+  -
 - Python Web Frameworks
   - Flask
   - Django
@@ -131,3 +131,9 @@
 - Other Web Development Topics Not Covered
   - Ruby on Rails
   - C#, Java, Go
+__
+
+
+## Sources
+
+- [Poole](https://github.com/poole/poole)
