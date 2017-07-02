@@ -2,11 +2,11 @@
 
 *Daily Bruin Online, Fall 2017*
 
-**Instructor:**
-**Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.    
-**Location:**
-**Time:**     
-**Attendance:** Attending all trainings (and the media-law training) are all **mandatory**.
+**Instructor:**  
+**Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.  
+**Location:**  
+**Time:**  
+**Attendance:** Attending all trainings (and the media-law training) are all **mandatory**.  
 **Office Hours:**
 
 ## Outline
@@ -131,7 +131,6 @@
 - Other Web Development Topics Not Covered
   - Ruby on Rails
   - C#, Java, Go
-__
 
 
 ## Sources
