@@ -4,7 +4,7 @@
 Even though you will be working in the Online department of the Daily Bruin, you are still considered to be a journalist. **What does it mean to be a journalist?** As a journalist, you are a storyteller.
 
 > Were it left to me to decide whether we should have a government without newspapers, or newspapers without a government, I should not hesitate a moment to prefer the latter.
-> 
+>
 >  — [Thomas Jefferson](https://en.wikiquote.org/wiki/Thomas_Jefferson#1780s)
 
 What's the purpose of journalism?
@@ -74,11 +74,11 @@ You and me and everyone else with a computer access the web through a **web brow
 
 #### Devices
 
-Since the release of the iPhone in 2007 and the iPad in 2010, more and more web traffic has come from mobile devices. As a developer it’s crucial that you keep various screen sizes and orientations in mind and don’t only develop for desktop computers. 
+Since the release of the iPhone in 2007 and the iPad in 2010, more and more web traffic has come from mobile devices. As a developer it’s crucial that you keep various screen sizes and orientations in mind and don’t only develop for desktop computers.
 
 #### Screen Readers
 
-Not everyone can look at a screen. **Screen Readers** are programs that read out the contents of a computer screen to a user. They’re most commonly used by users with visual impairments. Many laws have been passed that require websites to be accessible to people with disabilities, not to mention that making your website as accessible as possible is just the right thing to do. The [a11y project](http://a11yproject.com) is an effort to make the web more accessible. 
+Not everyone can look at a screen. **Screen Readers** are programs that read out the contents of a computer screen to a user. They’re most commonly used by users with visual impairments. Many laws have been passed that require websites to be accessible to people with disabilities, not to mention that making your website as accessible as possible is just the right thing to do. The [a11y project](http://a11yproject.com) is an effort to make the web more accessible.
 
 ### Web Servers
 
@@ -92,7 +92,7 @@ The often overlooked part of the internet is the part in between the browser and
 
 Say you want to connect to [dailybruin.com](http://dailybruin.com). How do you do that? You just type in “dailybruin.com”.
 
-When you do this and hit “enter”, your computer needs send a request to the Daily Bruin server. However, it doesn’t know where on the Internet the DB server is, so first goes to a server called a **Domain Name Server** (DNS). The DNS server will look for the particular domain name provided, in this case “dailybruin.com”, and return an **IP Address** associated to that domain name back to your browser. Every device on the web has a unique IP address associated with it, and it serves as the way computers know where each other are. 
+When you do this and hit “enter”, your computer needs send a request to the Daily Bruin server. However, it doesn’t know where on the Internet the DB server is, so first goes to a server called a **Domain Name Server** (DNS). The DNS server will look for the particular domain name provided, in this case “dailybruin.com”, and return an **IP Address** associated to that domain name back to your browser. Every device on the web has a unique IP address associated with it, and it serves as the way computers know where each other are.
 
 Now that your browser has an IP address, it contacts the computer at that IP address (the Daily Bruin server) and requests the home page, which is sent to the browser in small chunks of about 1000-1500 bytes called **Packets**.
 
@@ -146,7 +146,7 @@ In general, the `<meta>` tag is followed by attributes that provide metadata abo
 
 The `<title>` element specifies the title of the page. It’s required for all HTML documents and is used for display in brower tabs, bookmarks, and search engine results.
 
-#### Heading 
+#### Heading
 
 Moving into the `<body>` of the page, we notice a `<h1>` element. This stands for “Heading 1”. There are six different heading levels, from `<h1>` being the largest heading to `<h6>` being the smallest.
 
@@ -200,7 +200,7 @@ The staging area in Git is an intermediate area between a modified file and a co
 Now let’s get to the commands!
 
 - `git status` lists all new, modified, and deleted files.
-- `git diff` shows all the file differences not yet staged. 
+- `git diff` shows all the file differences not yet staged.
 - `git diff --staged` shows all file differences between the staged files and last commit.
 - `git add <Your File(s)>` stages your file.
 - `git commit -m "<Your Commit Message>"` commits your staged files with the commit message specified.
@@ -208,13 +208,13 @@ Now let’s get to the commands!
 
 ### Git GUIs
 
-Once you get a handle of it, the command line is probably the quickest way to interact with Git. However, remembering all these commands and concepts can be a lot, especially when you’re just trying to code. As a result, many GUI (Graphical User Interface) clients have been developed for Git. I personally recommend Tower, which is paid but well worth the price, especially with the 50% student discount they give. Sourcetree and GitKraken are good free alternatives, though, and as of recently, Github has been integrating Git commands into Atom so you don’t even have to leave your text editor. If you don’t know where to begin, start with the built in Git integration to Atom, then move to another tool if you find it doesn’t fit your or you need more power. 
+Once you get a handle of it, the command line is probably the quickest way to interact with Git. However, remembering all these commands and concepts can be a lot, especially when you’re just trying to code. As a result, many GUI (Graphical User Interface) clients have been developed for Git. I personally recommend Tower, which is paid but well worth the price, especially with the 50% student discount they give. Sourcetree and GitKraken are good free alternatives, though, and as of recently, Github has been integrating Git commands into Atom so you don’t even have to leave your text editor. If you don’t know where to begin, start with the built in Git integration to Atom, then move to another tool if you find it doesn’t fit your or you need more power.
 
 ## CSS
 
 All our HTML pages so far, frankly, look kinda ugly and reminiscent of a [CS class page](http://web.cs.ucla.edu/classes/spring17/cs35L/). We can fix that with CSS!
 
-CSS stands for Cascading Style Sheets. The style sheets part is pretty understandable: CSS adds style to HTML elements. The cascading part means that 
+CSS stands for Cascading Style Sheets. The style sheets part is pretty understandable: CSS adds style to HTML elements. The cascading part means that
 
 
 ## More Practice
@@ -226,7 +226,7 @@ Here are some examples of good personal sites from former and current DBers:
 - [Harrison Liddiard](https://harrisonliddiard.com)
 - [Chang Liu](http://changliu.io) (also see his post on [building his site](http://changliu.io/blog/website-redesign/))
 - [Frank Chen](https://kfrankc.me)
-- [Mahir Mathur](http://mihirmathur.com)
+- [Mihir Mathur](http://mihirmathur.com)
 - [Ruthie Johnson](https://ruthjohnson95.github.io/ruthjohnson.me/)
 - [Shannon Phu](http://shannonphu.github.io)
 - [Ky-Cuong Huynh](https://kycode.me)
