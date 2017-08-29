@@ -2,13 +2,17 @@
 
 Every developer has their own preferred setup. If you're coming into the Daily Bruin with web development experience, awesome! Use whatever tools you want. Just know that while what we teach may not apply to you, you'll still be responsible for learning it on your own for your particular setup.
 
-## Text Editor
+## Text Editor (Atom)
 
 In order to build websites, you need to be able to write code. In order to write code, you need to be able to edit text efficiently. This is where a [text editor](https://en.wikipedia.org/wiki/Text_editor) comes in.
 
 Our recommended text editor for beginners is [Atom](https://atom.io). It's free, cross-platform, and modifiable enough to fit anyone's personal preference. It's also very commonly used and a good starting point for anyone who decides to move to a different editor in the future.
 
-You can download atom from [its website](https://atom.io).
+You can download Atom from [its website](https://atom.io).
+
+If you already have a favorite text editor, you can use that as well. Just be aware that we will be teaching for Atom, so you may have to find some alternatives to packages we recommend, etc.
+
+After you install Atom, watch through [this video series](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_). It'll give you a great overview of all of the features and capabilites Atom has to offer. Feel free to customize it to your own liking too!
 
 ## Package Manager
 
