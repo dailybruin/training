@@ -73,6 +73,7 @@ title: Home
   - Foundation
   - Grid Layout
 - Intro to Flatpages
+  - Flatpage Template
 
 ### Week 3
 - Review: Week 2
@@ -88,23 +89,11 @@ title: Home
   - Functions
   - Expressions
 - jQuery
+- Back to the Flatpage Template
 - d3
 - The Stack
 
-### Week 4
-- Review: Week 3
-- PHP
-  - [The Basics](http://www.phptherightway.com/pages/The-Basics.html)
-- Wordpress
-  - What is Wordpress?
-  - Admin Panel
-  - Themes
-  - Theme Development
-    - Anatomy of a theme
-      - Stylesheet
-      - Template Files
-      - The Loop
-- dailybruin.com
+
 
 ### Week 5
 - Review: Week 4
