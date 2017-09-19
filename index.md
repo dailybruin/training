@@ -1,36 +1,32 @@
----
-layout: default
-title: Home
----
-
 # Online Training Syllabus
 
-*Daily Bruin Online, Fall 2017*
+_Daily Bruin Online, Fall 2017_
 
-**Instructor:**  
-**Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.  
-**Location:**  
-**Time:**  
-**Attendance:** Attending all trainings (and the media-law training) are all **mandatory**.  
-**Office Hours:**
+__Instructor:__ Byron Lutz
+__Materials:__ Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.  
+__Location:__ TBD
+__Time:__ TBD
+__Attendance:__ Attending all trainings (and the media-law training) are all __mandatory__.  
+__Office Hours:__ By appointment! Email Byron!
 
 ## Outline
 
 ### [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
 
-### Week 0: *Home Setup*
+### Week 0: _Home Setup_
 - Text Editors
 - Basic Command Line Usage
   - Fish
 - Package Managers
 - Daily Bruin Technology Overview (and software you need to download!)
+  - How the Internet Works
 - Pre-survey
+- Resources
 
-### Week 1
+### Week 1: HTML, Git, CSS
 - Introductions
 - Review: Week 0
 - Introduction to Journalism
-- How the Internet Works
 - HTML
   - Hello World
   - Common Elements
@@ -43,6 +39,8 @@ title: Home
   - Making Changes
     - Staging
   - GUIs
+  - GitHub
+- __Review:__ HTML and Git
 - CSS
   - Styling Hello World
   - Common Properties
@@ -54,79 +52,109 @@ title: Home
   - Values and Units
   - Cascade and Inheritance
   - The Box Model
+- __Review:__ CSS with HTML and Git
 - Homework 1 - A Personal Site
   - Addendum: Github Pages
 
-### Week 2
-- Review: Week 1
-- Showcase: Personal sites
+### Week 2: Nunjucks, Sass, Gulp, Foundation, and Flatpages
+- __Review:__ Personal sites
 - Responsive Design
+- Nunjucks
+  - What are Templating Languages?
+  - Variables
+  - Template Inheritance
+  - Control Flow
 - Sass
-  - Advantages to CSS
   - Precompiling
+  - Variables
+  - Nesting
+  - Partials
 - Task Runners
   - Gulp
   - Compiling and Watching Sass
   - Adding Autoprefixer
   - Minification
+  - Sourcemaps
+  - Image Minification
+- __Review:__ Using Sass and Nunjucks with Gulp
 - Front-End Frameworks
   - Foundation
   - Grid Layout
 - Intro to Flatpages
   - Flatpage Template
+- __Review:__ Making Flatpages
+- Split into Teams
 
-### Week 3
-- Review: Week 2
-- What is Javascript and How Does it Fit in?
-  - History of Javascript
-  - Current Versions of ECMAScript
-- Hello World (again)
-- A Brief Overview of Javascript Features
-  - Variables
-    - Types
+### Week 3: JavaScript, jQuery, Flatpages (cont.), D3, and the Stack
+- __Review:__ Flatpages
+- Javascript
+  - What is Javascript?
+    - History of Javascript
+    - Current Versions of ECMAScript
+    - ES6 Features
+  - Hello World
+  - Syntax
+  - Numbers
+  - Booleans
+  - Strings
   - Control Flow
-  - Loops
+  - Data Structures
+    - Arrays
+    - Objects
   - Functions
-  - Expressions
+  - Classes
 - jQuery
+  - When/When Not to Use jQuery
+  - Syntax
+    - Selectors
+  - Events
+  - Common Effects
 - Back to the Flatpage Template
 - d3
 - The Stack
 
-
-
-### Week 5
-- Review: Week 4
-- Web Server Review
+### Week 4
+- Review: Week 3
+- How the Internet Works, Review
 - RESTful APIs
 - JSON
 - Python
-  -
-- Python Web Frameworks
-  - Flask
-  - Django
+  - Hello World
+  - Syntax
+  - Numbers
+  - Booleans
+  - Strings
+  - Control Flow
+  - Data Structures
+    - Lists
+    - Tuples
+    - Dictionaries
+  - Functions
+  - Classes
+- Django
 - SQL
 - meow
-
 - Bruinwalk
 
-
-### Week 6
+### Week 5
 - Review: Week 5
 - Node.js
-- Express.js
+  - npm
+  - Express.js
 - MongoDB
-- npm
-
-### Week 7
 - React
 - Webpack
 - Kaleidoscope
-- Other Web Development Topics Not Covered
-  - Ruby on Rails
-  - C#, Java, Go
 
+### Other Web Technologies We Didn't Cover
+We don't expect you to know how to use them, but you should at least be familiar/know what they are!
 
-## Sources
+#### Frontend
+- vue.js
+- Angular
 
-- [Poole](https://github.com/poole/poole)
+#### Backend
+- Ruby and Rails
+- C#, Java, Go
+- Vue.js
+
