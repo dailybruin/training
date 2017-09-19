@@ -10,9 +10,27 @@ Our recommended text editor for beginners is [Atom](https://atom.io). It's free,
 
 You can download Atom from [its website](https://atom.io).
 
+### Package
+A big reason why Atom is so popular is its package ecosystem: many developers have written extensions to Atom to do everything from change its appearance to extend its functionality. If you write code for the Daily Bruin, you __must__ have these extensions installed and configured:
+
+- [editorconfig](https://atom.io/packages/editorconfig)
+- [linter](https://atom.io/packages/linter)
+- [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
+- [linter-stylelint](https://atom.io/packages/linter-stylelint)
+- [linter-eslint](https://atom.io/packages/linter-eslint)
+- [prettier-atom]()
+- [language-nunjucks]()
+
+We also highly recommend you install:
+
+- [emmet](https://atom.io/packages/emmet)
+- [markdown-preview](https://atom.io/packages/markdown-preview)
+- git-blame
+
+
 If you already have a favorite text editor, you can use that as well. Just be aware that we will be teaching for Atom, so you may have to find some alternatives to packages we recommend, etc.
 
-After you install Atom, watch through [this video series](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_). It'll give you a great overview of all of the features and capabilites Atom has to offer. Feel free to customize it to your own liking too!
+After you install Atom, watch through [this video series](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_). It'll give you a great overview of all of the features and capabilities Atom has to offer. Feel free to customize it to your own liking too!
 
 ## Package Manager
 
@@ -30,7 +48,7 @@ macOS is built on top of an operating system called Unix.
 
 A [shell](https://en.wikipedia.org/wiki/Unix_shell) is a program that makes it easy for you to run other programs. It's what you see hackers use all the time in [TV and movies](https://www.youtube.com/watch?v=PGjLhOhMLXc). Although it has connotations of being only for the “pros”, the truth is the shell is really just another way to interface with your computer and can actually be a lot faster.
 
-There are multiple shells. [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) is probably the most common, and the default on macOS and most Linux distributions. You may have also heard of [Zsh](https://en.wikipedia.org/wiki/Z_shell) (pronounced "Z shell"), which is a popular choice among command line enthusiasts. We're going to use neither of them, and instead use a shell called [fish](https://en.wikipedia.org/wiki/Friendly_interactive_shell), or the friendly interactive shell, which has a very nice autocompletion feature that makes it easy to learn.
+There are multiple shells. [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) is probably the most common, and the default on macOS and most Linux distributions. You may have also heard of [Zsh](https://en.wikipedia.org/wiki/Z_shell) (pronounced "Z shell"), which is a popular choice among command line enthusiasts. If you're new to the shell or don't really have a strong attachment to a certain shell, we recommend you use a shell called [fish](https://en.wikipedia.org/wiki/Friendly_interactive_shell), or the friendly interactive shell, which has a very nice autocompletion feature that makes it easy to learn.
 
 You can install it by going to Terminal and running:
 
@@ -45,7 +63,7 @@ You now want to add fish to `/etc/shells`. This will require your password.
 ```shell
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 ```
-`
+
 Now you can change your default shell to fish.
 
 ```shell
@@ -54,12 +72,10 @@ chsh -s /usr/local/bin/fish
 
 Open a new terminal window. See the difference?
 
-## Using the Command Line
-
+### Using the Command Line
 Now that you have your command line set up, let's go over the commands you need to know.
 
-### pwd (Print Working Directory)
-
+#### pwd (Print Working Directory)
 `pwd` tells you what directory you are currently located in. 
 
 ```shell
@@ -67,8 +83,7 @@ Now that you have your command line set up, let's go over the commands you need 
 /Users/nathan
 ```
 
-### ls (List Directory)
-
+#### ls (List Directory)
 `ls` lists all the contents of the current directory you're in.
 
 ```shell
@@ -96,29 +111,29 @@ drwxr-xr-x+   6 nathan  staff   204 Jul 25  2015 Public
 
 Another useful option is `-a`, which tells ls to also list all [hidden files](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory).
 
-### cd (Change Directory)
-
+#### cd (Change Directory)
 Being in the same directory the entire time is kinda boring, so `cd` allows you to move directories. Specify the name of the directory you want to go to after the cd command.
 
 ```shell
 › cd Documents
 ```
 
-### mkdir (Make Directory)
-
+#### mkdir (Make Directory)
 Let's make some directories of our own! Type `mkdir` followed by the name of the directory you want to create.
 
 ```shell
 › cd newDir
 ```
 
-### cp (Copy)
+#### cp (Copy)
+`cp` copies files! Pretty straightforward, right?
 
 ```shell
 › cp file1 Documents/file2
 ```
 
-### mv (Move)
+#### mv (Move)
+`mv` moves files! It also renames files if you don't move them from their current directory.
 
 ```shell
 › mv file1 Documents/file2
@@ -128,7 +143,10 @@ Let's make some directories of our own! Type `mkdir` followed by the name of the
 › mv file1 file2
 ```
 
-### rm (Remove)
+That second command just renamed `file1` to `file2`.
+
+#### rm (Remove)
+`rm` is short for "remove", which does exactly what you think it would. Be careful with this command—there is no trash can/recycling bin concept with `rm`; once you delete a file it's gone.
 
 ```shell
 › rm file1
@@ -138,9 +156,16 @@ Let's make some directories of our own! Type `mkdir` followed by the name of the
 › rm -r directory1
 ```
 
-### cat (Concatenate)
+Sometimes people on the internet tell you to run the command
 
-`cat` prints things out to the terminal. If you give it multiple files, it will concatenate and print out the contents of all the files given.
+```shell
+› rm -rf /
+```
+
+or some variation. __Don't do this!__
+
+#### cat (Concatenate)
+`cat` prints things out to the terminal. If you give it multiple files, it will concatenate and print out the contents of all the files given. Lots of people just use it to get the output of one file though!
 
 ```shell
 › cat file1
@@ -150,9 +175,8 @@ Let's make some directories of our own! Type `mkdir` followed by the name of the
 › cat file1 file2 file3
 ```
 
-### man (Manual)
-
-If you want to learn about any command in depth use `man`. 
+#### man (Manual)
+If you want to learn about any command in depth use `man`. If you don't like reading in the terminal, you could also just Google it.
 
 ```shell
 › man ls
