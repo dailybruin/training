@@ -113,7 +113,12 @@ __Office Hours:__ By appointment! Email Byron!
 - d3
 - The Stack
 
-### Week 4
+### Week 4: Design and Acessibility
+- Typography
+- Color
+- Acessibility
+
+### Week 5
 - Review: Week 3
 - How the Internet Works, Review
 - RESTful APIs
@@ -136,7 +141,7 @@ __Office Hours:__ By appointment! Email Byron!
 - meow
 - Bruinwalk
 
-### Week 5
+### Week 6: Advanced JavaScript
 - Review: Week 5
 - Node.js
   - npm
@@ -145,6 +150,8 @@ __Office Hours:__ By appointment! Email Byron!
 - React
 - Webpack
 - Kaleidoscope
+
+### Week 7: Deployment
 
 ### Other Web Technologies We Didn't Cover
 We don't expect you to know how to use them, but you should at least be familiar/know what they are!
