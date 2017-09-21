@@ -13,20 +13,16 @@ __Office Hours:__ By appointment! Email Byron!
 
 ### [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
 
-### Week 0: _Home Setup_
-- Text Editors
-- Basic Command Line Usage
-  - Fish
-- Package Managers
-- Daily Bruin Technology Overview (and software you need to download!)
-  - How the Internet Works
-- Pre-survey
-- Resources
-
-### Week 1: HTML, Git, CSS
-- Introductions
-- Review: Week 0
-- Introduction to Journalism
+### Week 1: Setup, HTML, Git, CSS
+- Tools
+  - Text Editor (Atom)
+    - Atom Packages
+  - Package Manager (Homebrew or Chocolatey)
+  - Command Line
+    - CMDer (Windows)
+    - fish (masOS)
+    - Using the Command Line
+  - TL;DR
 - HTML
   - Hello World
     - Doctype Declaration
@@ -38,7 +34,10 @@ __Office Hours:__ By appointment! Email Byron!
     - Comments
     - Heading
     - Paragraphs
-  - References
+  - TL;DR
+  - Links
+    - Learning
+    - Reference
 - Git
   - Configuration
   - Creating Repositories
@@ -59,13 +58,11 @@ __Office Hours:__ By appointment! Email Byron!
   - Values and Units
   - Cascade and Inheritance
   - The Box Model
-- __Review:__ CSS with HTML and Git
-- Homework 1 - A Personal Site
+- Homework 1: A Personal Site
   - Addendum: Github Pages
 
 ### Week 2: Nunjucks, Sass, Gulp, Foundation, and Flatpages
 - __Review:__ Personal sites
-- Responsive Design
 - Nunjucks
   - What are Templating Languages?
   - Variables
@@ -83,14 +80,12 @@ __Office Hours:__ By appointment! Email Byron!
   - Minification
   - Sourcemaps
   - Image Minification
-- __Review:__ Using Sass and Nunjucks with Gulp
 - Front-End Frameworks
   - Foundation
   - Grid Layout
+- Design
 - Intro to Flatpages
   - Flatpage Template
-- __Review:__ Making Flatpages
-- Split into Teams
 
 ### Week 3: JavaScript, jQuery, Flatpages (cont.), D3, and the Stack
 - __Review:__ Flatpages
@@ -121,11 +116,6 @@ __Office Hours:__ By appointment! Email Byron!
   - SVG
 - __Review:__ The Stack
 
-### Week 4: Design and Acessibility
-- Typography
-- Color
-- Acessibility
-
 ### Week 5
 - Review: Week 3
 - How the Internet Works, Review
@@ -145,21 +135,12 @@ __Office Hours:__ By appointment! Email Byron!
   - Functions
   - Classes
 - Django
+
+
+### Week 6:
 - SQL
 - meow
 - Bruinwalk
-
-### Week 6: Advanced JavaScript
-- Review: Week 5
-- Node.js
-  - npm
-  - Express.js
-- MongoDB
-- React
-- Webpack
-- Kaleidoscope
-
-### Week 7: Deployment
 
 ### Other Web Technologies We Didn't Cover
 We don't expect you to know how to use them, but you should at least be familiar/know what they are!

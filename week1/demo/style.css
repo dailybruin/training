@@ -1,0 +1,9 @@
+body {
+  background-color: red;
+  font-family: "Comic Sans MS";
+}
+
+p {
+  /* Blue paragraphs are cool */
+  color: blue;
+}
