@@ -29,9 +29,16 @@ __Office Hours:__ By appointment! Email Byron!
 - Introduction to Journalism
 - HTML
   - Hello World
-  - Common Elements
-  - Good Practices
-  - Element References
+    - Doctype Declaration
+    - Elements and Tags
+    - Attributes
+    - Head and Body Tags
+    - Meta Tag
+    - Title Tag
+    - Comments
+    - Heading
+    - Paragraphs
+  - References
 - Git
   - Configuration
   - Creating Repositories
@@ -108,10 +115,11 @@ __Office Hours:__ By appointment! Email Byron!
   - Syntax
     - Selectors
   - Events
-  - Common Effects
-- Back to the Flatpage Template
+  - Common Effects and Uses
+- __Review:__ Flatpages with JavaScript
 - d3
-- The Stack
+  - SVG
+- __Review:__ The Stack
 
 ### Week 4: Design and Acessibility
 - Typography
