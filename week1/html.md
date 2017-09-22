@@ -63,9 +63,9 @@ HTML defines the layout for webpages. Different __elements__ are rendered differ
 ### Further Reading
 #### Learning
 - [Mozilla Developer Network: Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML): A more in-depth overview of HTML. Also read about [images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
-- [CodeAcademy: Learn HTML](Learn HTML): Interactive HTML practice.
+- [CodeAcademy: Learn HTML](https://www.codecademy.com/learn/learn-html): Interactive HTML practice.
+- [How to Use The HTML5 Sectioning Elements](http://blog.teamtreehouse.com/use-html5-sectioning-elements): The latest version of HTML, HTML 5, introduced sectioning elements. What are those? Read this to find out.
 
 #### Reference
 - [htmlreference.io](http://htmlreference.io): A great reference of every HTML element.
-- [How to Use The HTML5 Sectioning Elements](http://blog.teamtreehouse.com/use-html5-sectioning-elements): The latest version of HTML, HTML 5, introduced sectioning elements. What are those? Read this to find out.
 - [HTML Best Practices](https://github.com/hail2u/html-best-practices): A very comprehensive list of HTML best practices.
