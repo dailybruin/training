@@ -9,18 +9,11 @@ Our recommended text editor for beginners is [Atom](https://atom.io). It's free,
 You can download Atom from [its website](https://atom.io).
 
 #### Atom Packages
-A big reason why Atom is so popular is its package ecosystem: many developers have written extensions to Atom to do everything from change its appearance to extend its functionality. If you write code for the Daily Bruin, you __must__ have these extensions installed and configured:
+A big reason why Atom is so popular is its package ecosystem: many developers have written extensions to Atom to do everything from change its appearance to extend its functionality. Install these extensions to start (we'll add more later!):
 
 - [editorconfig](https://atom.io/packages/editorconfig)
 - [emmet](https://atom.io/packages/emmet)
 - [linter](https://atom.io/packages/linter)
-- [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
-- [linter-stylelint](https://atom.io/packages/linter-stylelint)
-- [linter-eslint](https://atom.io/packages/linter-eslint)
-- [prettier-atom]()
-- [language-nunjucks]()
-- [markdown-preview](https://atom.io/packages/markdown-preview)
-- git-blame
 
 If you already have a favorite text editor, you can use that as well. Just be aware that we will be teaching for Atom, so you may have to find some alternatives to packages we recommend.
 
@@ -183,3 +176,7 @@ Press `q` to exit the man view.
 
 ## TL;DR
 Use Atom as your text editor. Use Homebrew or Chocolatey as your package manager. Get acquainted to the command line.
+
+## Further Resources
+[Atom Video Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_)
+[What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
