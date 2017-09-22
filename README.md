@@ -14,7 +14,7 @@ __Office Hours:__ By appointment! Email Byron!
 ### [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
 
 ### Week 1: Setup, HTML, Git, CSS
-- Tools
+- [Tools](week1/tools.md)
   - Text Editor (Atom)
     - Atom Packages
   - Package Manager (Homebrew or Chocolatey)
