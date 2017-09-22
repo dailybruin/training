@@ -1,5 +1,5 @@
 # Git
-Now that you know how to make web pages, its time to learn how to develop web pages collaboratively and iteratively. In order to this without having to create a bunch of folders with titles like `v1.0`, `v1.1`, `v1.1-FIXED`, and email those to our team members every time we make a change, we use a piece of software called [Git](https://en.wikipedia.org/wiki/Git). Git is what’s called a version control system, which does exactly what it sounds like: manages and keeps track of changes to your code, so that it’s easier to keep track of, share, and revert changes. You can also run Git on a server, so that your team members can make changes, put those changes on the server, and allow you to download those changes so that everyone has the latest code. [Github](https://github.com) is probably the most popular Git server, and what the Daily Bruin uses to host all of our code.
+Now that you know how to make web pages, its time to learn how to develop web pages collaboratively and iteratively. In order to this without having to create a bunch of folders with titles like `v1.0`, `v1.1`, `v1.1-FIXED`, and email those to our team members every time we make a change, we use a piece of software called [Git](https://en.wikipedia.org/wiki/Git). Git is what’s called a version control system, which does exactly what it sounds like: manages and keeps track of changes to your code, so that it’s easier to keep track of, share, and revert changes. You can also run Git on a server, so that your team members can make changes, put those changes on the server, and allow you to download those changes so that everyone has the latest code. [GitHub](https://github.com) is probably the most popular Git server, and what the Daily Bruin uses to host all of our code.
 
 Let’s _git_ started!
 
@@ -104,6 +104,17 @@ Git Town adds [4 main commands](https://github.com/Originate/git-town#commands) 
 - `git sync`: Makes sure your branch is up to date with all other branches, and makes any merges nessecary.
 - `git new-pull-request`: Syncs your current branch, and makes a new pull request for that branch.
 - `git ship`: Syncs the branch, merges it into `master`, and deletes said branch.
+
+## GitHub
+[GitHub](https://github.com) is the most popular hosting provider for git repositories. It's also like a social network in many ways and allows both users and organizations to showcase their work. It takes a little bit of getting used to, but this [Hello World guide](https://guides.github.com/activities/hello-world/) should help you get set up with GitHub.
+
+Once you have a basic grasp on GitHub, read about these cool features:
+- [Customizing Your Profile](https://help.github.com/articles/customizing-your-profile/)
+- [Pull Requests](https://help.github.com/articles/about-pull-requests/), [Reviewing Pull Requests](https://help.github.com/articles/reviewing-changes-in-pull-requests/), and [Incorporating Pull Requests](https://help.github.com/articles/incorporating-changes-from-a-pull-request/)
+- [Issues](https://help.github.com/articles/managing-your-work-with-issues/)
+- [Projects](https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/)
+
+GitHub also gives away a lot of free stuff to students! Sign up for the [student developer pack](https://education.github.com/pack) if you haven't already!
 
 ## Git GUIs
 Once you get a handle of it, the command line is probably the quickest way to interact with Git. However, remembering all these commands and concepts can be a lot, especially when you’re just trying to code. As a result, many GUI (Graphical User Interface) clients have been developed for Git. I personally recommend Tower, which is paid but well worth the price, especially with the 50% student discount they give. Sourcetree and GitKraken are good free alternatives, though, and as of recently, Github has been integrating Git commands into Atom so you don’t even have to leave your text editor. If you don’t know where to begin, start with the built in Git integration to Atom, then move to another tool if you find it doesn’t fit your or you need more power.
