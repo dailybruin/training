@@ -20,11 +20,13 @@ In computer science, there’s this concept of a [“Hello World” program](htt
 </html>
 ```
 
+If you want to follow along, put this into a new Atom window and save the file as `hello.html`. Then open it in a web browser. Congrats, you just made your first web page!
+
 #### Doctype Declaration
 `<!DOCTYPE html>` is what’s known as a doctype declaration, which basically tells the browser what version of HTML the file is written in. The current standard is [HTML 5](https://en.wikipedia.org/wiki/HTML5), which was released in October 2014. There are other doctypes for formats such as HTML 4 and [XHTML](https://en.wikipedia.org/wiki/XHTML), but no one really uses them anymore, so any HTML file you write in practice will start with just `<!DOCTYPE html>`.
 
 #### Elements and Tags
-As you can see, a HTML document has lots of words inside angle brackets such as `<head>`, `<body>`, `<title>`, and `<h1>`. These are called __elements__, and essentially specify to a web browser how to treat a part of the web page. Each element has an __opening tag__ that looks like `<this>` and a __closing tag__ that looks like `</this>`.[^3] Every element has a specific meaning and is rendered by the browser differently.
+As you can see, a HTML document has lots of words inside angle brackets such as `<head>`, `<body>`, `<title>`, and `<h1>`. These are called __elements__, and essentially specify to a web browser how to treat a part of the web page. Each element has an __opening tag__ that looks like `<this>` and a __closing tag__ that looks like `</this>`. Every element has a specific meaning and is rendered by the browser differently.
 
 #### Attributes
 `<html lang="en-us">` tells a browser that the document is HTML. It has a matching closing tag (`</html>`) at the end of the document. The `lang="en-us"` part inside is known as an __attribute__, which provides additional information about the tag. They’re always specified in the start tag, and usually come in a `name="value"` format. From that info, you might be able to guess what the `lang="en-us" ` attribute specifies: that this HTML document will be in US English. Since all Daily Bruin content is in English, it’s always a good idea to add the `lang` attribute.
@@ -58,12 +60,12 @@ The `<p>`, or paragraph element, is the bread and butter of the web pages that t
 ### TL;DR
 HTML defines the layout for webpages. Different __elements__ are rendered different by the browser, and are written with __tags__. HTML tags can also have __attributes__ which can affect their appearance/function as well. 
 
-#### Links
-##### Learning
+### Further Reading
+#### Learning
 - [Mozilla Developer Network: Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML): A more in-depth overview of HTML. Also read about [images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
 - [CodeAcademy: Learn HTML](Learn HTML): Interactive HTML practice.
 
-##### Reference
+#### Reference
 - [htmlreference.io](http://htmlreference.io): A great reference of every HTML element.
 - [How to Use The HTML5 Sectioning Elements](http://blog.teamtreehouse.com/use-html5-sectioning-elements): The latest version of HTML, HTML 5, introduced sectioning elements. What are those? Read this to find out.
 - [HTML Best Practices](https://github.com/hail2u/html-best-practices): A very comprehensive list of HTML best practices.
