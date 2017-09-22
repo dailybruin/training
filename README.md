@@ -23,7 +23,8 @@ __Office Hours:__ By appointment! Email Byron!
     - fish (masOS)
     - Using the Command Line
   - TL;DR
-- HTML
+  - Links
+- [HTML](week1/html.md)
   - Hello World
     - Doctype Declaration
     - Elements and Tags
@@ -44,9 +45,9 @@ __Office Hours:__ By appointment! Email Byron!
   - Cloning Repositories
   - Making Changes
     - Staging
+  - Branches
   - GUIs
   - GitHub
-- __Review:__ HTML and Git
 - CSS
   - Styling Hello World
   - Common Properties
@@ -58,8 +59,7 @@ __Office Hours:__ By appointment! Email Byron!
   - Values and Units
   - Cascade and Inheritance
   - The Box Model
-- Homework 1: A Personal Site
-  - Addendum: Github Pages
+- [Homework 1: A Personal Site](week1/homework1.md)
 
 ### Week 2: Nunjucks, Sass, Gulp, Foundation, and Flatpages
 - __Review:__ Personal sites
