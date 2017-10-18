@@ -2,23 +2,20 @@
 
 _Daily Bruin Online, Fall 2017_
 
-__Instructor:__ Byron Lutz
-__Materials:__ Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.  
-__Location:__ TBD
-__Time:__ TBD
-__Attendance:__ Attending all trainings (and the media-law training) are all __mandatory__.  
-__Office Hours:__ By appointment! Email Byron!
+__Instructor:__ Byron Lutz  
+__Materials:__ Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.   
+__Location:__ TBD  
+__Time:__ TBD  
+__Attendance:__ Attending all trainings (and the media-law training) are all __mandatory__. If you can't make any of the trainings for any reason, let us know ASAP.  
+__Office Hours:__ By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.
 
 ## Outline
-
-### [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
-
 ### Week 1: Setup, HTML, Git, CSS
 - [Tools](week1/tools.md)
   - Text Editor (Atom)
     - Atom Packages
   - Package Manager (Homebrew or Chocolatey)
-  - Command Line
+  - The Command Line
     - CMDer (Windows)
     - fish (masOS)
     - Using the Command Line
@@ -39,7 +36,7 @@ __Office Hours:__ By appointment! Email Byron!
   - Links
     - Learning
     - Reference
-- Git
+- [Git](week1/git.md)
   - Configuration
   - Creating Repositories
   - Cloning Repositories
@@ -48,7 +45,7 @@ __Office Hours:__ By appointment! Email Byron!
   - Branches
   - GUIs
   - GitHub
-- CSS
+- [CSS](week1/css.md)
   - Styling Hello World
   - Common Properties
     - Property References
@@ -135,22 +132,10 @@ __Office Hours:__ By appointment! Email Byron!
     - Dictionaries
   - Functions
   - Classes
-- Django
-
 
 ### Week 5:
+- Django
 - SQL
 
 
-### Other Web Technologies We Didn't Cover
-We don't expect you to know how to use them, but you should at least be familiar/know what they are!
-
-#### Frontend
-- vue.js
-- Angular
-
-#### Backend
-- Ruby and Rails
-- C#, Java, Go
-- Vue.js
-
+### [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
