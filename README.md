@@ -61,6 +61,8 @@ __Office Hours:__ By appointment! Email Byron!
   - The Box Model
 - [Homework 1: A Personal Site](week1/homework1.md)
 
+
+
 ### Week 2: Nunjucks, Sass, Gulp, Foundation, and Flatpages
 - __Review:__ Personal sites
 - Nunjucks
@@ -116,8 +118,7 @@ __Office Hours:__ By appointment! Email Byron!
   - SVG
 - __Review:__ The Stack
 
-### Week 5
-- Review: Week 3
+### Week 4
 - How the Internet Works, Review
 - RESTful APIs
 - JSON
@@ -137,10 +138,9 @@ __Office Hours:__ By appointment! Email Byron!
 - Django
 
 
-### Week 6:
+### Week 5:
 - SQL
-- meow
-- Bruinwalk
+
 
 ### Other Web Technologies We Didn't Cover
 We don't expect you to know how to use them, but you should at least be familiar/know what they are!

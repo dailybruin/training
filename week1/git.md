@@ -47,7 +47,6 @@ If you don’t specify a project name, i.e., run just `git init`, a repository w
 A git repository is really just defined by a folder called `.git` that git uses to keep track of everything in the repository. If you want to keep all of the files in a repository but no longer have it be a repository, you can just delete the `.git` folder.
 
 ## Cloning Repositories
-
 Often times, though, you aren’t the one creating a project; you’re working on a project someone else created. In this case, you want to __clone__ a repository from a server, usually from Github. The command for that is:
 
 ```shell
@@ -68,14 +67,28 @@ Now let’s get to the commands!
 - `git commit -m "<Your Commit Message>"` commits your staged files with the commit message specified.
 - `git commit -a -m "<Your Commit Message>"` (or just `git commit -am "<Your Commit Message>"`) skips the staging process and just commits all changed files in your working directory.
 
-## Branches and Merging
+## Branching
 Creating, cloning, and making changes in Git are all great when you want to work on a project by yourself, but what do you do when you're working with multiple people who may be making changes to the same file at the same time? This is where Git becomes both powerful and complicated.
 
-Git supports a feature called __branching__, which is a way to keep track of changes. A branch can contain all of the commits that add a feature or fix a bug. This code is separate from the regular code, which is always in a branch called `master`. When a developer is done with their feature, they __merge__ it into `master`.
+Git supports a feature called __branching__, which is a way to keep track of changes. A branch can contain all of the commits that add a feature or fix a bug. This code is separate from the regular code, which is always in a branch called `master`.
 
-### Further Reading
-- [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/)
-- [GitHub Flow](https://guides.github.com/introduction/flow/)
+Relevant branching commands are as follows:
+- `git checkout -b <New Branch Name>` creates and moves (or checks out) a new branch.
+- `git checkout <Existing Branch>` checks out an existing branch.
+- `git branch -m <New Branch Name>` renames the current branch.
+- `git branch -d <Branch>` deletes a branch.
+- `git push origin <Branch>` makes a branch available remotely, by pushing it to the git host.
+
+Branches can get real confusing real quick, so don't worry if you don't get this at first. Also don't worry about the commands in this part either, we'll cover a much easier branching process in a couple of sections.
+
+### Branching Best Practices
+DB follows this naming scheme: `<first name>/<descriptive feature name>`. `master` is considered to be our stable branch; anything in it should be production ready. New branches should also only be branched from `master`.
+
+## Merging
+When a developer is done with their branch, they __merge__ it back into another branch (almost always `master`). This is done with the `git merge --squash <Branch You Want to Merge Into the Current Branch>`. Be careful to remember the `--squash`! Git can merge branches in a couple of different ways, but the way we prefer to do it in DB is with `--squash`.
+
+## GitHub
+As mentioned earlier, GitHub is where DB hosts all of our code. In addition to just hosting Git, they also have many cool features that make code collaboration easier. Go through GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and once you feel like you have a good grasp of it, be sure to check out some of GitHub's more advanced feature such as [Pull Requests](https://help.github.com/articles/about-pull-requests/, [Issues](https://help.github.com/articles/about-pull-requests/, and [Projects](https://help.github.com/articles/about-pull-requests/).
 
 ## Git Town
 Since all of these Git commands can get a little confusing, there's this really cool tool called [Git Town](http://www.git-town.com) that makes working with Git easier. Watch the video on the page to check it out!
@@ -120,3 +133,7 @@ GitHub also gives away a lot of free stuff to students! Sign up for the [student
 Once you get a handle of it, the command line is probably the quickest way to interact with Git. However, remembering all these commands and concepts can be a lot, especially when you’re just trying to code. As a result, many GUI (Graphical User Interface) clients have been developed for Git. I personally recommend Tower, which is paid but well worth the price, especially with the 50% student discount they give. Sourcetree and GitKraken are good free alternatives, though, and as of recently, Github has been integrating Git commands into Atom so you don’t even have to leave your text editor. If you don’t know where to begin, start with the built in Git integration to Atom, then move to another tool if you find it doesn’t fit your or you need more power.
 
 
+### Further Reading
+- [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/)
+- [GitHub Flow](https://guides.github.com/introduction/flow/)
+- [GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
