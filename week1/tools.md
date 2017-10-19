@@ -19,31 +19,35 @@ If you already have a favorite text editor, you can use that as well. Just be aw
 
 After you install Atom, watch through [this video series](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_). It'll give you a great overview of all of the features and capabilities Atom has to offer. Feel free to customize it to your own liking too!
 
-### Package Manager (Homebrew or Chocolatey)
+### Package Manager
 A [package manager](https://en.wikipedia.org/wiki/Package_manager) is a program that manages the installation, updates, and deletion of other programs. It will make your life a lot easier.
 
 Note that "package" in this case refers to a computer program (such as [Node](https://nodejs.org/en/)), not an Atom extension as mentioned in the previous section. 
 
 On Windows, the most popular package manager is called [Chocolatey](https://chocolatey.org). On macOS, the package manager most commonly used is [Homebrew](https://brew.sh). They're pretty similar, so download the appropriate one for your system.
 
-### Command Line
-A [shell](https://en.wikipedia.org/wiki/Unix_shell) is a program that makes it easy for you to run other programs. It's what you see hackers use all the time in [TV and movies](https://www.youtube.com/watch?v=PGjLhOhMLXc). Although it has connotations of being only for the “pros”, the truth is the shell is really just another way to interface with your computer and can actually be a lot faster.
+### The Command Line
+A command-line interface (CLI) is a program that enables a text-based way of interfacing with a computer. Although it has connotations of being only for the “pros”, the truth is the command line is really just another way to interface with your computer and can actually be a lot faster.
 
-There are multiple shells. [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) is probably the most common, and the default on macOS and most Linux distributions. You may have also heard of [Zsh](https://en.wikipedia.org/wiki/Z_shell) (pronounced "Z shell"), which is a popular choice among command line enthusiasts or the [fish shell](https://en.wikipedia.org/wiki/Friendly_interactive_shell).
+A CLI is usually implemented by a program called a [shell](https://en.wikipedia.org/wiki/Shell_(computing)). Although they're separate things, for our purposes the terms "shell", "command line", and "terminal" all refer to the same thing.
 
 #### CMDer (Windows)
-Windows isn't a Unix based system, which means that it can't use Unix shells as easily as on macOS. However, there's still a cool terminal called [CMDer](http://cmder.net) that gives you a pretty close experience. Download it with the command:
+To get a cool CLI on Windows, you want to download a program called [CMDer](http://cmder.net). Download it with the command:
 ```shell
 choco install cmder
 ```
 
-Noticed how you used Chocolatey to install it?
+Noticed how you used Chocolatey to install it? Told you package managers would make your life easy.
 
 #### fish (macOS)
-You can install it by going to Terminal and running:
+To set up your CLI on macOS, open the "Terminal" application. (It's in the `Utilities` folder in your `Applications` folder.) Now run the commands:
 
 ```shell
 brew install fish
+brew install wget
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+wget https://raw.githubusercontent.com/daily-bruin/training/master/fish_prompt.fish .config/fish/functions
 ```
 `
 You may have noticed this uses Homebrew to install fish. Isn't that nice?
@@ -51,13 +55,13 @@ You may have noticed this uses Homebrew to install fish. Isn't that nice?
 You now want to add fish to `/etc/shells`. This will require your password.
 
 ```shell
-echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+
 ```
 
 Now you can change your default shell to fish.
 
 ```shell
-chsh -s /usr/local/bin/fish
+
 ```
 
 Open a new terminal window. See the difference?

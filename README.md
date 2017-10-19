@@ -12,9 +12,8 @@ __Office Hours:__ By appointment! Email Byron! Mike, Nathan, and Hongyi are also
 ## Outline
 ### Week 1: Setup, HTML, Git, CSS
 - [Tools](week1/tools.md)
-  - Text Editor (Atom)
-    - Atom Packages
-  - Package Manager (Homebrew or Chocolatey)
+  - [Text Editor (Atom)](week1/tools.md#text-editor-atom)
+  - [Package Managers](week1/tools.md#package-manager)
   - The Command Line
     - CMDer (Windows)
     - fish (masOS)
