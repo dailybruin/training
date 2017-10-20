@@ -19,6 +19,13 @@ If you already have a favorite text editor, you can use that as well. Just be aw
 
 After you install Atom, watch through [this video series](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_). It'll give you a great overview of all of the features and capabilities Atom has to offer. Feel free to customize it to your own liking too!
 
+#### Alternatives
+Not a fan of Atom? Hate installing your own packages? Want something that's more like an IDE?
+- [VSCode](https://code.visualstudio.com/) Microsoft's take on a stripped down code editor. More opinonated and has a lot more tools and magic prepared and set up for you right out of the box.
+- [PyCharm/Webstorm](https://www.jetbrains.com/) A literal IDE. Code intelligence, package management and pretty much everything else you'll need in one package. Also free for students!
+- [Sublime Text](https://www.sublimetext.com/) OG GUI-based text editor. Super fast, but harder to configure right.
+- _Vim/Emacs_ ...you probably know what you're dealing with already.
+
 ### Package Manager
 A [package manager](https://en.wikipedia.org/wiki/Package_manager) is a program that manages the installation, updates, and deletion of other programs. It will make your life a lot easier.
 
