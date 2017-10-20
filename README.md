@@ -18,23 +18,13 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [Text Editor](week1/tools.md#text-editor)
   - [Package Manager](week1/tools.md#package-manager)
   - [The Command Line](week1/tools.md#the-command-line)
-  - TL;DR
-  - Links
+  - [TL;DR](week1/tools.md#tldr)
+  - [Further Resources](week1/tools.md#further-resources)
 - [HTML](week1/html.md)
-  - Hello World
-    - Doctype Declaration
-    - Elements and Tags
-    - Attributes
-    - Head and Body Tags
-    - Meta Tag
-    - Title Tag
-    - Comments
-    - Heading
-    - Paragraphs
-  - TL;DR
-  - Links
-    - Learning
-    - Reference
+  - [Hello World]()
+  - [Advanced HTML]()
+  - [TL;DR]()
+  - [Further Resources](week1/html.md#further-resources)
 - [Git](week1/git.md)
   - Configuration
   - Creating Repositories
