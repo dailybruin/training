@@ -2,22 +2,22 @@
 
 _Daily Bruin Online, Fall 2017_
 
-__Instructor:__ Byron Lutz  
-__Materials:__ Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.   
-__Location:__ TBD  
-__Time:__ TBD  
-__Attendance:__ Attending all trainings (and the media-law training) are all __mandatory__. If you can't make any of the trainings for any reason, let us know ASAP.  
-__Office Hours:__ By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.
+**Instructor:** Byron Lutz  
+**Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.   
+**Location:** TBD  
+**Time:** TBD  
+**Attendance:** Attending all trainings (and the media-law training) are all **mandatory**. If you can't make any of the trainings for any reason, let us know ASAP.  
+**Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.
+
+## A Note on These Notes and Links
+This cool statistician and computer scienctist named Edward Tufte [really hates Powerpoints](https://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf) (_optional_). Instead he advocates that the best way to present technical information to a group is to distribute written reports to be read by everyone and then have the presenter use the meeting time to review and answer questions on that topic. So we're going to do that for Online training sessions! We'll assume that you've done the required reading and set up before every session and then review, answer questions, and work on real examples in the session. Moral of the story: read all of the notes before each weekly session. Read the links marked (**mandatory**). If you have time, check out the (_optional_) links too—they're cool!
 
 ## Outline
 ### Week 1: Setup, HTML, Git, CSS
 - [Tools](week1/tools.md)
-  - [Text Editor (Atom)](week1/tools.md#text-editor-atom)
-  - [Package Managers](week1/tools.md#package-manager)
-  - The Command Line
-    - CMDer (Windows)
-    - fish (masOS)
-    - Using the Command Line
+  - [Text Editor](week1/tools.md#text-editor)
+  - [Package Manager](week1/tools.md#package-manager)
+  - [The Command Line](week1/tools.md#the-command-line)
   - TL;DR
   - Links
 - [HTML](week1/html.md)
@@ -60,7 +60,7 @@ __Office Hours:__ By appointment! Email Byron! Mike, Nathan, and Hongyi are also
 
 
 ### Week 2: Nunjucks, Sass, Gulp, Foundation, and Flatpages
-- __Review:__ Personal sites
+- **Review:** Personal sites
 - Nunjucks
   - What are Templating Languages?
   - Variables
@@ -86,7 +86,7 @@ __Office Hours:__ By appointment! Email Byron! Mike, Nathan, and Hongyi are also
   - Flatpage Template
 
 ### Week 3: JavaScript, jQuery, Flatpages (cont.), D3, and the Stack
-- __Review:__ Flatpages
+- **Review:** Flatpages
 - Javascript
   - What is Javascript?
     - History of Javascript
@@ -109,10 +109,10 @@ __Office Hours:__ By appointment! Email Byron! Mike, Nathan, and Hongyi are also
     - Selectors
   - Events
   - Common Effects and Uses
-- __Review:__ Flatpages with JavaScript
+- **Review:** Flatpages with JavaScript
 - d3
   - SVG
-- __Review:__ The Stack
+- **Review:** The Stack
 
 ### Week 4
 - How the Internet Works, Review
@@ -131,10 +131,8 @@ __Office Hours:__ By appointment! Email Byron! Mike, Nathan, and Hongyi are also
     - Dictionaries
   - Functions
   - Classes
-
-### Week 5:
 - Django
 - SQL
 
-
-### [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
+## 
+ [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
