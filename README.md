@@ -26,6 +26,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [TL;DR]()
   - [Further Resources](week1/html.md#further-resources)
 - [Git](week1/git.md)
+  - Installation
   - Configuration
   - Creating Repositories
   - Cloning Repositories
