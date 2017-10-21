@@ -63,9 +63,9 @@ Read through Mozilla Developer Network's [Introduction to HTML](https://develope
 ## TL;DR
 HTML defines the layout for webpages. Different **elements** are rendered different by the browser, and are written with **tags**. HTML tags can also have **attributes** which can affect their appearance/function as well. 
 
-### Further Resources
-#### Learning
+## Further Resources
 - [CodeAcademy: Learn HTML](https://www.codecademy.com/learn/learn-html): Interactive HTML practice.
-- [How to Use The HTML5 Sectioning Elements](http://blog.teamtreehouse.com/use-html5-sectioning-elements): The latest version of HTML, HTML 5, introduced sectioning elements. What are those? Read this to find out.
+- [HTML Dog: HTML Tutorials](http://htmldog.com/guides/html/)
+- [How to Use The HTML5 Sectioning Elements](http://blog.teamtreehouse.com/use-html5-sectioning-elements): The latest version of HTML, HTML 5, introduced sectioning elements. What are those? Read this to find out. (**mandatory**)
 - [htmlreference.io](http://htmlreference.io): A great reference of every HTML element. You may want to bookmark this.
 - [HTML Best Practices](https://github.com/hail2u/html-best-practices): A very comprehensive list of HTML best practices. You may want to bookmark this too.

@@ -36,19 +36,10 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [Git Town](week1/git.md#git-town)
   - [Git GUIs](week1/git.md#git-guis)
 - [CSS](week1/css.md)
-  - Styling Hello World
-  - Common Properties
-    - Property References
-  - Selectors
-    - Basic Selectors
-    - Pseudo-classes and Pseudo-elements
-    - Combinators and Multiple Selectors
-  - Values and Units
-  - Cascade and Inheritance
-  - The Box Model
+  - [CSS Introduction](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/) (From MDN)
+  - [TL;DR](week1/css.md#tldr)
+  - [Further Resources](week1/css.md#further-resources)
 - [Homework 1: A Personal Site](week1/homework1.md)
-
-
 
 ### Week 2: Nunjucks, Sass, Gulp, Foundation, and Flatpages
 - **Review:** Personal sites
@@ -122,6 +113,8 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
     - Dictionaries
   - Functions
   - Classes
+
+### Week 5
 - Django
 - SQL
 
