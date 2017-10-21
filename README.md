@@ -26,15 +26,15 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [TL;DR]()
   - [Further Resources](week1/html.md#further-resources)
 - [Git](week1/git.md)
-  - Installation
-  - Configuration
-  - Creating Repositories
-  - Cloning Repositories
-  - Making Changes
-    - Staging
-  - Branches
-  - GUIs
-  - GitHub
+  - [Installation](week1/git.md#installation)
+  - [Configuration](week1/git.md#configuration)
+  - [Creating Repositories](week1/git.md#creating-repositories)
+  - [Cloning Repositories](week1/git.md#cloning-repositories)
+  - [Branching](week1/git.md#branching)
+  - [Merging](week1/git.md#merging)
+  - [GitHub](week1/git.md#github)
+  - [Git Town](week1/git.md#git-town)
+  - [Git GUIs](week1/git.md#git-guis)
 - [CSS](week1/css.md)
   - Styling Hello World
   - Common Properties
