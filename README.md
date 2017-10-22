@@ -4,8 +4,8 @@ _Daily Bruin Online, Fall 2017_
 
 **Instructor:** Byron Lutz  
 **Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.   
-**Location:** TBD  
-**Time:** TBD  
+**Location:** Ackerman Viewpoint Conference Room   
+**Time:** Sunday, 9am-1pm October 22 2017
 **Attendance:** Attending all trainings (and the media-law training) are all **mandatory**. If you can't make any of the trainings for any reason, let us know ASAP.  
 **Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.
 
