@@ -21,7 +21,7 @@ After you install Atom, watch through [this video series](https://www.youtube.co
 ### Package Manager
 A [package manager](https://en.wikipedia.org/wiki/Package_manager) is a program that manages the installation, updates, and deletion of other programs. It will make your life a lot easier.
 
-Note that "package" in this case refers to a computer program (such as [Node](https://nodejs.org/en/)), not an Atom extension as mentioned in the previous section. 
+Note that "package" in this case refers to a computer program, not an Atom extension as mentioned in the previous section. 
 
 On Windows, the most popular package manager is called [Chocolatey](https://chocolatey.org). On macOS, the package manager most commonly used is [Homebrew](https://brew.sh). They're pretty similar, so download the appropriate one for your system.
 
