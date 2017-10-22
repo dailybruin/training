@@ -46,8 +46,8 @@ brew install fish
 brew install wget
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
-wget https://raw.githubusercontent.com/daily-bruin/training/master/fish_prompt.fish .config/fish/functions
-wget https://github.com/daily-bruin/training/blob/master/DB%20Theme.terminal ~/Downloads
+wget https://raw.githubusercontent.com/daily-bruin/training/master/fish_prompt.fish -P .config/fish/functions/
+wget https://github.com/daily-bruin/training/blob/master/DB%20Theme.terminal  -P ~/Downloads
 ```
 
 Now double click on the `DB Theme.terminal` file in your `Downloads` folder. Go to Terminal>Preferences>Profile and make it your default theme. Now open a new window. So pretty wauw.
