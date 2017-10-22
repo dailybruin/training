@@ -54,6 +54,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - Variables
   - Nesting
   - Partials
+- BEM
 - Task Runners
   - Gulp
   - Compiling and Watching Sass
