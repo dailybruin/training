@@ -1,2 +1,2 @@
 # Gulp
-Gulp what's called a task runner.
+Gulp what's called a task runner: it automates common development tasks for you and runs them automatically. What can it do? Compile Nunjucks and Sass files, compress images, [minify](https://en.wikipedia.org/wiki/Minification_(programming)) files, and a whole lot of other very useful things in the development workflow.
