@@ -38,7 +38,7 @@ __Watch:__ [The beauty of data visualization (David McCandless/17:56)](http://ww
 - [Map: Where are the gun permits in your neighborhood](http://web.archive.org/web/20150731154625/http://archive.lohud.com/interactive/article/20121223/NEWS01/121221011/Map-Where-gun-permits-your-neighborhood-):
 	_(Note: this is currently offline so it can only be accessed from the internet archive)_
 	This violates the “minimize harm” part of SPJ code of ethics. Read the [NYT's reaction](http://www.nytimes.com/2013/01/19/nyregion/newspaper-takes-down-map-of-gun-permit-holders.html?_r=0) to it.
-- [Hellfire from Above](http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/): A great example of how interactivity can help to tell a story. From former Online Editor [Neil Bedi](http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/).
+- [Hellfire from Above](http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/): A great example of how interactivity can help to tell a story. From former Online Editor [Neil Bedi](https://neilbedi.com).
 - [The Calderon Family's Connections](http://graphics.latimes.com/calderon/):
 	Read [this article](http://knightlab.northwestern.edu/2015/04/17/how-byron-lutz-untangled-the-calderon-familys-connections-and-what-it-tells-us-about-social-network-analysis/) from the Knight Foundation about how DB alum [Byron](http://blutz.io) made it.
 - [Timeline: Gay Marriage Chronology](http://graphics.latimes.com/usmap-gay-marriage-chronology/):
