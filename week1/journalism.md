@@ -35,15 +35,16 @@ __Watch:__ [The beauty of data visualization (David McCandless/17:56)](http://ww
 
 
 ### Examples of Online Journalism
-- [Map: Where are the gun permits in your neighborhood](http://web.archive.org/web/20150731154625/http://archive.lohud.com/interactive/article/20121223/NEWS01/121221011/Map-Where-gun-permits-your-neighborhood-)
+- [Map: Where are the gun permits in your neighborhood](http://web.archive.org/web/20150731154625/http://archive.lohud.com/interactive/article/20121223/NEWS01/121221011/Map-Where-gun-permits-your-neighborhood-):
 	_(Note: this is currently offline so it can only be accessed from the internet archive)_
 	This violates the “minimize harm” part of SPJ code of ethics. Read the [NYT's reaction](http://www.nytimes.com/2013/01/19/nyregion/newspaper-takes-down-map-of-gun-permit-holders.html?_r=0) to it.
-- [The Calderon Family's Connections](http://graphics.latimes.com/calderon/)
+- [Hellfire from Above](http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/): A great example of how interactivity can help to tell a story. From former Online Editor [Neil Bedi](http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/).
+- [The Calderon Family's Connections](http://graphics.latimes.com/calderon/):
 	Read [this article](http://knightlab.northwestern.edu/2015/04/17/how-byron-lutz-untangled-the-calderon-familys-connections-and-what-it-tells-us-about-social-network-analysis/) from the Knight Foundation about how DB alum [Byron](http://blutz.io) made it.
-- [Timeline: Gay Marriage Chronology](http://graphics.latimes.com/usmap-gay-marriage-chronology/)
+- [Timeline: Gay Marriage Chronology](http://graphics.latimes.com/usmap-gay-marriage-chronology/):
 	This was built using a map generator.
 - [Wake of the Storm: Remembering San Joaquin](http://yolanda.dailybruin.com/remembering-san-joaquin/)
-- [Snow Fall: The Avalanche at Tunnel Creek](http://www.nytimes.com/projects/2012/snow-fall/#/?part=tunnel-creek)
+- [Snow Fall: The Avalanche at Tunnel Creek](http://www.nytimes.com/projects/2012/snow-fall/#/?part=tunnel-creek):
 	This started the trend of long-form stories; to "snow fall" is now used as a verb.
 - [Can You Live on the Minimum Wage?](http://www.nytimes.com/interactive/2014/02/09/opinion/minimum-wage.html)
 - [4th Down: When to Go for It and Why](http://www.nytimes.com/2014/09/05/upshot/4th-down-when-to-go-for-it-and-why.html)
