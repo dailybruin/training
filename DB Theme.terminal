@@ -26,7 +26,7 @@
 	<key>RunCommandAsShell</key>
 	<true/>
 	<key>name</key>
-	<string>Basic</string>
+	<string>DB Theme</string>
 	<key>type</key>
 	<string>Window Settings</string>
 	<key>useOptionAsMetaKey</key>
