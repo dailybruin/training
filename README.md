@@ -5,9 +5,9 @@ _Daily Bruin Online, Fall 2017_
 **Instructor:** Byron Lutz  
 **Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.   
 **Location:** Ackerman Viewpoint Conference Room   
-**Time:** Sunday, 9am-1pm October 22 2017
+**Time:** Sunday, 9am-1pm October 22 2017  
 **Attendance:** Attending all trainings (and the media-law training) are all **mandatory**. If you can't make any of the trainings for any reason, let us know ASAP.  
-**Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.
+**Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.  
 
 ## A Note on These Notes and Links
 This cool statistician and computer scienctist named Edward Tufte [really hates Powerpoints](https://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf) (_optional_). Instead he advocates that the best way to present technical information to a group is to distribute written reports to be read by everyone and then have the presenter use the meeting time to review and answer questions on that topic. So we're going to do that for Online training sessions! We'll assume that you've done the required reading and set up before every session and then review, answer questions, and work on real examples in the session. Moral of the story: read all of the notes before each weekly session. Read the links marked (**mandatory**). If you have time, check out the (_optional_) links too—they're cool!
