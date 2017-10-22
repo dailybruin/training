@@ -173,8 +173,8 @@ Use Atom as your text editor. Use Homebrew or Chocolatey as your package manager
 All further resources are (_optional_) unless marked otherwise. They're mainly here to provide more information/reference to the topics we talked about. We'd reccomend going over them if something above was unclear, you want to learn more about a particular thing mentioned above, or referring to them after a training session to review.
 
 ### Atom
-[Atom Flight Manual](http://flight-manual.atom.io): Useful bits are [Atom Basics](http://flight-manual.atom.io/getting-started/sections/atom-basics/) and all of [Chapter 2: Using Atom](http://flight-manual.atom.io/using-atom/).
-[Atom Video Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_)
+- [Atom Flight Manual](http://flight-manual.atom.io): Useful bits are [Atom Basics](http://flight-manual.atom.io/getting-started/sections/atom-basics/) and all of [Chapter 2: Using Atom](http://flight-manual.atom.io/using-atom/).
+- [Atom Video Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_)
 
 ### Other Text Editors
 We won't be teaching them in class, but it's helpful to know about some other text editors out there today.
@@ -184,8 +184,8 @@ We won't be teaching them in class, but it's helpful to know about some other te
 - _Vim/Emacs_ ...you probably know what you're dealing with already.
 
 ### The Command Line
-[Don’t Fear The Command Line](http://readwrite.com/2014/07/18/command-line-tutorial-intro/)
-[Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line): A great interactive tutorial from CodeAcademy.
-[Beginner's Guide to the Bash Terminal](https://www.youtube.com/watch?v=oxuRxtrO2Ag): A long video that goes much more in depth than we did, but covers a lot of great stuff.
+- [Don’t Fear The Command Line](http://readwrite.com/2014/07/18/command-line-tutorial-intro/)
+- [Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line): A great interactive tutorial from CodeAcademy.
+- [Beginner's Guide to the Bash Terminal](https://www.youtube.com/watch?v=oxuRxtrO2Ag): A long video that goes much more in depth than we did, but covers a lot of great stuff.
 
 
