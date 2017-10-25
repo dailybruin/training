@@ -67,4 +67,31 @@ Another cool feature of Nunjucks is templating: it makes it easy to define a bas
 
 
 ## Conditionals
-Conditionals: [`if`](https://mozilla.github.io/nunjucks/templating.html#if) and [`for`](https://mozilla.github.io/nunjucks/templating.html#for)
+You can use conditionals with Nunjucks! These statements allow you to add some logic into your templating and do some more complex things. Let's take a look below.
+
+### If statements
+If statements take in the boolean value from a variable or statement. If the value is true, the stuff inside the if statement is displayed, if not the compiler moves on. Pretty simple right? You can also use elseif and else statements.
+```html
+{% if programmer %}
+  I'm a programmer.
+{% elif designer %}
+  I'm a designer.
+{% else %}
+  I'm not a programmer or a designer, but I'm still cool.
+{% endif %}
+```
+
+### For statements
+For statements iterate over a set of data, and can be especially useful when it comes to creating flatpages that feature a lot of static content. The best way to see how these work is through an example. Let's check one out below.
+
+In this example, we have an array named `stories`. Each story object contains a headline, a description and a URL. This piece of code displays that headline (which also acts as a link to the actual story) and a short description of the story below it. This will save you tons of work - you can display an essentially unlimited number of pieces of content with a few short lines of code.
+
+```html
+<h1>Headlines</h1>
+<p>Click on a headline below to read the story.</p>
+{% for story in stories %}
+  <h3><a href="{{ story.url }}">{{ story.title }}</a></h3>
+  <p>{{ story.description }}</p>
+{% endfor %}
+```
+You can read more about if and for statements [here.](https://mozilla.github.io/nunjucks/templating.html#if)
