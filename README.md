@@ -47,14 +47,15 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 
 ### Week 2: Everything You Ever Wanted to Know About Frontend Web Development That Isn't JavaScript
 - **Review:** Personal sites
+- [Emmet](week2/emmet.md)
 - [BEM](week2/bem.md)
-- Stylelint
-- Emmet
-- Sass
-- Nunjucks
-- Gulp
 - Foundation
 - Web Design
+- The Flatpage Template
+- Gulp
+- Stylelint
+- Sass
+- Nunjucks
 
 <!-- - [Stylelint](week2/stylelint.md)
 - [Sass](week2/sass.md)
