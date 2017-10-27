@@ -97,7 +97,7 @@ A particular article would look like:
 
 Note that partials are great for reusable components on a website while templates are great for pages that share a design and differ only in content.
 
-Read more about templating with [Template Inheritance](https://mozilla.github.io/nunjucks/templating.html#template-inheritance) and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends).
+Read more about templating with [Template Inheritance](https://mozilla.github.io/nunjucks/templating.html#template-inheritance) and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends) (**mandatory**).
 
 ## Conditionals
 You can use conditionals with Nunjucks! These statements allow you to add some logic into your templating and do some more complex things. Let's take a look below.
@@ -114,7 +114,7 @@ If statements take in the boolean value from a variable or statement. If the val
 {% endif %}
 ```
 
-Read more about `if` statements [here](https://mozilla.github.io/nunjucks/templating.html#if).
+Read more about `if` statements [here](https://mozilla.github.io/nunjucks/templating.html#if) (**mandatory**).
 
 ### For Loops
 For statements iterate over a set of data, and can be especially useful when it comes to creating flatpages that feature a lot of static content. The best way to see how these work is through an example. Let's check one out below.
@@ -130,7 +130,7 @@ In this example, we have an array named `stories`. Each story object contains a 
 {% endfor %}
 ```
 
-You can read more about `for` statements [here](https://mozilla.github.io/nunjucks/templating.html#for).
+You can read more about `for` statements [here](https://mozilla.github.io/nunjucks/templating.html#for) (**mandatory**).
 
 ## Compiling
 Similar to how Sass isn't CSS, Nunjucks isn't HTML and thus needs to be _rendered_ (like how Sass needs to be compiled). The flatpage template will do this automatically for you!
