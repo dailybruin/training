@@ -51,8 +51,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 - [BEM](week2/bem.md)
 - [Foundation](week2/foundation.md)
 - Web Design
-- The Flatpage Template
-- Gulp
+- The Flatpage Template & Gulp
 - Stylelint
 - Sass
 - Nunjucks
