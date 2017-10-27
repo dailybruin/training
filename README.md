@@ -72,7 +72,10 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [Human-Computer Interaction](week2/design.md#human-computer-interaction)
   - [TL;DR](week2/design.md#tldr)
   - [Further Resources](week2/design.md#further-resources)
-- The Flatpage Template
+- [Flatpages and the Flatpage Template](week2/flatpages.md)
+  - [Gulp](week2/flatpages.md#gulp)
+  - [Technologies Used](week2/flatpages.md#the-gulpfile)
+  - [TL;DR](week2/flatpages.md#tldr)
 - [Stylelint](week2/stylelint.md)
   - [Installation](week2/styelint.md#installation)
   - [Configuration](week2/styelint.md#configuration)
