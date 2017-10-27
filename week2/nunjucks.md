@@ -99,7 +99,6 @@ Note that partials are great for reusable components on a website while template
 
 Read more about templating with [Template Inheritance](https://mozilla.github.io/nunjucks/templating.html#template-inheritance) and [`extends`](https://mozilla.github.io/nunjucks/templating.html#extends).
 
-
 ## Conditionals
 You can use conditionals with Nunjucks! These statements allow you to add some logic into your templating and do some more complex things. Let's take a look below.
 
@@ -134,5 +133,10 @@ In this example, we have an array named `stories`. Each story object contains a 
 You can read more about `for` statements [here](https://mozilla.github.io/nunjucks/templating.html#for).
 
 ## Compiling
+Similar to how Sass isn't CSS, Nunjucks isn't HTML and thus needs to be _rendered_ (like how Sass needs to be compiled). The flatpage template will do this automatically for you!
+
+## TL;DR
+Nunjucks is a cool extension to HTML that makes it a lot easier to for you to not repeat yourself. It has to be compiled, but the flatpage template does that for you! 
 
 ## Further Resources
+- [Nunjucks website](https://mozilla.github.io/nunjucks/) and [docs](https://mozilla.github.io/nunjucks/templating.html)

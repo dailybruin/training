@@ -17,4 +17,5 @@ Browsers only understand Sass, not CSS, so all Sass code must be compiled to CSS
 Sass is a cool extension to CSS that you should use! Browsers only understand CSS, though, so make sure you compile it to CSS first!
 
 ## Further Resources
-[Sass Guidelines](https://sass-guidelin.es) 
+- [Sass Website](http://sass-lang.com)
+- [Sass Guidelines](https://sass-guidelin.es) 

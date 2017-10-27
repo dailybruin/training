@@ -50,19 +50,12 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 - [Emmet](week2/emmet.md)
 - [BEM](week2/bem.md)
 - [Foundation](week2/foundation.md)
-- Web Design
-- The Flatpage Template & Gulp
+- Web Design (is my passion)
+- The Flatpage Template
+  - Gulp
 - [Stylelint](week2/stylelint.md)
 - [Sass](week2/sass.md)
-- Nunjucks
-
-<!-- - [Stylelint](week2/stylelint.md)
-- [Sass](week2/sass.md)
 - [Nunjucks](week2/nunjucks.md)
-- [Gulp](week2/gulp.md)
-- [Foundation](week2/foundation.md)
-- [Web Design](week2/design.md) (is my passion) -->
-- Flatpages!
 
 ### Week 3: JavaScript
 - **Review:** Flatpages

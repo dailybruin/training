@@ -30,11 +30,6 @@ Your site should be easy to use! If complex or complicated elements make the sit
 Make sure that your sites scale well to mobile. Over 50% of the Bruin's traffic now comes from mobile devices, so its important that users have the best experience possible, regardless of the device that they're using. Front end frameworks like [Foundation](https://foundation.zurb.com) can be realy helpful for making your site mobile friendly.
 
 ### Further Reading
-#### Learning
 - [Practical Typography](https://practicaltypography.com): An *in-depth* guide to the ins and outs of typography. Written by a UCLA alumnus!
 - [Web Field Manual](https://webfieldmanual.com/design.html): Features a lot of different links regarding web design. Some good resources and think pieces.
 - [Behance: UI/UX projects](https://webfieldmanual.com/design.html): See how different people have approached designing the UI/UX for different projects.
-
-
-
-<!-- A __user interface (UI)__ is what we use to describe anything the user can interact with on your site. It includes icons, buttons, text fields and more. -->
