@@ -29,6 +29,7 @@ Modifiers are denoted by a class name of the format `.block-name--modifier-name`
 BEM makes CSS much more maintainable and readable, espicially on larger projects. You should use it!
 
 ## Further Resources
+All are (**mandatory**).
 - [BEM Introduction](http://getbem.com/introduction/)
 - [BEM Naming](http://getbem.com/naming/)
 - [BEM FAQ](http://getbem.com/faq/)
