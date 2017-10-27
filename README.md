@@ -45,34 +45,26 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [Further Resources](week1/css.md#further-resources)
 - [Homework 1: A Personal Site](week1/homework1.md)
 
-### Week 2: Nunjucks, Sass, Gulp, Foundation, and Flatpages
+### Week 2: Everything You Ever Wanted to Know About Frontend Web Development That Isn't JavaScript
 - **Review:** Personal sites
-- Nunjucks
-  - What are Templating Languages?
-  - Variables
-  - Template Inheritance
-  - Control Flow
+- [BEM](week2/bem.md)
+- Stylelint
+- Emmet
 - Sass
-  - Precompiling
-  - Variables
-  - Nesting
-  - Partials
-- BEM
-- Task Runners
-  - Gulp
-  - Compiling and Watching Sass
-  - Adding Autoprefixer
-  - Minification
-  - Sourcemaps
-  - Image Minification
-- Front-End Frameworks
-  - Foundation
-  - Grid Layout
-- Design
-- Intro to Flatpages
-  - Flatpage Template
+- Nunjucks
+- Gulp
+- Foundation
+- Web Design
 
-### Week 3: JavaScript, jQuery, Flatpages (cont.), D3, and the Stack
+<!-- - [Stylelint](week2/stylelint.md)
+- [Sass](week2/sass.md)
+- [Nunjucks](week2/nunjucks.md)
+- [Gulp](week2/gulp.md)
+- [Foundation](week2/foundation.md)
+- [Web Design](week2/design.md) (is my passion) -->
+- Flatpages!
+
+### Week 3: JavaScript
 - **Review:** Flatpages
 - Javascript
   - What is Javascript?
