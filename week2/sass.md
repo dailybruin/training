@@ -18,4 +18,5 @@ Sass is a cool extension to CSS that you should use! Browsers only understand CS
 
 ## Further Resources
 - [Sass Website](http://sass-lang.com)
-- [Sass Guidelines](https://sass-guidelin.es) 
+- [Sass Guidelines](https://sass-guidelin.es)
+- [Codeacademy: Learn Sass](https://www.codecademy.com/learn/learn-sass)
