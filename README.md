@@ -48,14 +48,33 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 ### Week 2: Everything You Ever Wanted to Know About Frontend Web Development That Isn't JavaScript
 - **Review:** Personal sites
 - [Emmet](week2/emmet.md)
+  - [TL;DR](week2/emmet.md#tldr)
+  - [Further Resources](week2/emmet.md#further-resources)
 - [BEM](week2/bem.md)
+  - [Block](week2/bem.md#block)
+  - [Element](week2/bem.md#element)
+  - [Modifier](bem.md#modifier)
+  - [TL;DR](week2/bem.md#tldr)
+  - [Further Resources](week2/bem.md#further-resources)
 - [Foundation](week2/foundation.md)
+  - [Adding Foundation](week2/foundation.md#adding-foundation)
+  - [The Grid System](week2/foundation.md#the-grid-system)
+  - [Useful Components](week2/foundation.md#useful-components)
+  - [TL;DR](week2/foundation.md#tldr)
+  - [Further Resources](week2/foundation.md#further-resources)
 - Web Design (is my passion)
 - The Flatpage Template
-  - Gulp
 - [Stylelint](week2/stylelint.md)
+  - [Installation](week2/styelint.md#installation)
+  - [Configuration](week2/styelint.md#configuration)
+  - [TL;DR](week2/stylelint.md#tldr)
+  - [Further Resources](week2/stylelint.md#further-resources)
 - [Sass](week2/sass.md)
+  - [TL;DR](week2/sass.md#tldr)
+  - [Further Resources](week2/sass.md#further-resources)
 - [Nunjucks](week2/nunjucks.md)
+  - [TL;DR](week2/nunjucks.md#tldr)
+  - [Further Resources](week2/nunjucks.md#further-resources)
 
 ### Week 3: JavaScript
 - **Review:** Flatpages
