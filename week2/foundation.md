@@ -6,7 +6,7 @@ Note: the version of Foundation we use is Foundation 6 for Sites.
 ## Adding Foundation
 To add Foundation to your project, add the line
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
 ```
 in your `<head>`, before any of your custom CSS files. Also add the line
 ```html
@@ -17,7 +17,7 @@ at the end of your `<body>`, but before any custom JavaScript files.
 These lines fetch Foundation from a CDN, or Content Delivery Network, which is just a fancy way of saying a server meant to host frameworks and libraries like Foundation.
 
 ## The Grid System
-Grids are the most important tool you have in your web design arsenal. They're the scaffolding for making websites aesthetic and modular across all screens. The basic idea works like this: you divide up your webpage into 12 columns and align parts of your site to these 12 columns. On different screen sizes, different components can take up a different number of the 12 columns. It's sort of tough to explain without visuals, so please check out UCLA ACM Hack's [slides on grid systems](week2/grids.pdf) as well as [this video](https://youtu.be/k1zizfK2xbQ) from Zurb (the company that makes Foundation).
+Grids are the most important tool you have in your web design arsenal. They're the scaffolding for making websites aesthetic and modular across all screens. The basic idea works like this: you divide up your webpage into 12 columns and align parts of your site to these 12 columns. On different screen sizes, different components can take up a different number of the 12 columns. It's sort of tough to explain without visuals, so please check out UCLA ACM Hack's [slides on grid systems](grids.pdf) as well as [this video](https://youtu.be/k1zizfK2xbQ) from Zurb (the company that makes Foundation).
 
 As you could probably guess from the video, Foundation offers you a grid system to work with. This is what we use when using grids at the Daily Bruin! Read more about Foundation's grid system here in their docs.
 
@@ -40,4 +40,4 @@ In the Foundation docs, there's a page called ["Kitchen Sink"](https://foundatio
 ## Further Resources
 - [Foundation 6 for Site Documentation](https://foundation.zurb.com/sites/docs/)
 - [Zero to Website: The Complete Guide to Building a Responsive Website with Foundation](https://foundation.zurb.com/sites/docs/kitchen-sink.html)
-- [Lynda: Learning Foundation 6] (https://www.lynda.com/Foundation-tutorials/Learning-Foundation-6/622086-2.html) (Lynda is free for all UCLA students!)
+- [Lynda: Learning Foundation 6](https://www.lynda.com/Foundation-tutorials/Learning-Foundation-6/622086-2.html) (Lynda is free for all UCLA students!)
