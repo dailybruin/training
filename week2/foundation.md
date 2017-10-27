@@ -37,6 +37,9 @@ As well a grid system, Foundation supplies you with a lot of other common websit
 ### The Kitchen Sink
 In the Foundation docs, there's a page called ["Kitchen Sink"](https://foundation.zurb.com/sites/docs/kitchen-sink.html) that contains every component in Foundation. Take a scroll through it and get a feel for all Foundation can do for you. 
 
+## TL;DR
+Foundation makes layout, espicially mobile layouts, much easier to do. We reccomend using it for most DB projects!
+
 ## Further Resources
 - [Foundation 6 for Site Documentation](https://foundation.zurb.com/sites/docs/)
 - [Zero to Website: The Complete Guide to Building a Responsive Website with Foundation](https://foundation.zurb.com/sites/docs/kitchen-sink.html)
