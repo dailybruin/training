@@ -70,7 +70,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [TL;DR](week2/stylelint.md#tldr)
   - [Further Resources](week2/stylelint.md#further-resources)
 - [Sass](week2/sass.md)
-  - [Advantages]week2/sass.md#advantages)
+  - [Advantages](week2/sass.md#advantages)
   - [Compiling](week2/sass.md#compiling)
   - [TL;DR](week2/sass.md#tldr)
   - [Further Resources](week2/sass.md#further-resources)
