@@ -82,6 +82,7 @@ Design is a huuuuuuge field. But even if you aren't planning on focusing on desi
 #### Typography
 - [Helvetica](http://www.hustwit.com/category/helvetica/)
 - [Practical Typography](https://practicaltypography.com): An in-depth guide to the ins and outs of typography. Written by a UCLA alumnus!
+- [Smart Quotes for Smart People](http://smartquotesforsmartpeople.com)
 - [Elements of Typographic Style](https://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=dp_ob_title_bk): _The_ book on typography.
 
 #### Hierarchy
