@@ -49,7 +49,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 - **Review:** Personal sites
 - [Emmet](week2/emmet.md)
 - [BEM](week2/bem.md)
-- Foundation
+- [Foundation](week2/foundation.md)
 - Web Design
 - The Flatpage Template
 - Gulp
