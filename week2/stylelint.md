@@ -5,12 +5,12 @@ Stylelint is a linter for CSS and Sass code. We briefly touched on linting last 
 You want to have a stylelint plugin for your text editor. The one for Atom is called [linter-style](https://atom.io/packages/linter-stylelint).
 
 ## Configuration
-At the Daily Bruin, we use [UCLA Radio's stylelint configuration](https://github.com/uclaradio/stylelint-config-uclaradio) (yay student media!). It's already set up in the flatpage template, so just make sure your editor plugin is configured!
+At the Daily Bruin, we use [UCLA Radio's stylelint configuration](https://github.com/uclaradio/stylelint-config-uclaradio) (_optional_) (yay student media!). It's already set up in the flatpage template, so just make sure your editor plugin is configured!
 
 ## Further Resources
 - [Stylelint website](https://stylelint.io)
 
-You can often get a good feel for coding style by reading through other people's style guides. Here are some great ones:
+You can often get a good feel for coding style by reading through other people's style guides. Here are some great ones, which are all (**mandatory**):
 - [Google: HTML and CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [Airbnb: CSS / Sass Styleguide](https://github.com/airbnb/css)
 - [Harry Roberts: CSS Guidelines](https://cssguidelin.es)
