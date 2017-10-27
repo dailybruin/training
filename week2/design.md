@@ -57,9 +57,6 @@ Information architecture is a fancy way for talking about how a site is laid out
 ## User Research and Interviews
 After working on a project for about 2–4 weeks, it becomes impossible to design for it; you’ve become too focused on it to know how a user would use it. Thus, doing research—watching your users actually use your site to perform tasks and asking them questions about what they like and don’t—is absolutely critical if you want your site to be useful.
 
-## Human-Computer Interaction
-While most other design fields mentioned so far have been very applied, Human-Computer Interaction (HCI), is much more theoretical. It researches how people design and use technology, utilizing multiple disciplines in the process: computer science, psychology, sociology, cognitive science, design, and many more fields.
-
 ## TL;DR
 Design is a huuuuuuge field. But even if you aren't planning on focusing on design, you should know the basics of UX and UI design, accessibility, information architecture, and usability.
 
@@ -77,15 +74,11 @@ Design is a huuuuuuge field. But even if you aren't planning on focusing on desi
 - [7 Rules for Creating Gorgeous UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda)
 - [UI Patterns](http://ui-patterns.com)
 
-#### Color
-
 #### Typography
 - [Helvetica](http://www.hustwit.com/category/helvetica/)
 - [Practical Typography](https://practicaltypography.com): An in-depth guide to the ins and outs of typography. Written by a UCLA alumnus!
 - [Smart Quotes for Smart People](http://smartquotesforsmartpeople.com)
 - [Elements of Typographic Style](https://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=dp_ob_title_bk): _The_ book on typography.
-
-#### Hierarchy
 
 ### Usability
 - [Don’t Make Me Think](http://www.sensible.com/dmmt.html): _The_ book on usability. Nathan has a copy if you want to borrow it!
@@ -107,6 +100,3 @@ Design is a huuuuuuge field. But even if you aren't planning on focusing on desi
 ### User Research and Interviews
 - [Complete Beginner’s Guide to UX Research](http://www.uxbooth.com/articles/complete-beginners-guide-to-design-research/#books)
 - [Rocket Surgery Made Easy](http://www.sensible.com/rsme.html)
-
-### HCI
-- [The Designer’s Guide to HCI](https://blog.prototypr.io/the-rise-of-human-computer-interaction-hci-823dd6286e1d)
