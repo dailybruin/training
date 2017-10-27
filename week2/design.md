@@ -13,12 +13,12 @@ The word “design” can refer to anything from architecture to fashion, so whe
 So basically UX designers need make a product usable, accessible, and enjoyable to use. How do they do this? Through a little bit of all of the more specific design fields I’m about to get into: they interview users, create mockups, architect hierarchies, and create solutions to problems, among other things.
 
 ## UI
-UI, or User Interface, design is probably the second most well known design term. You’ll often see job titles such as UI/UX or UX/UI designer. Although the fields of user experience and user interface design are closely related, [they aren’t the same](http://www.helloerik.com/ux-is-not-ui) (**mandatory**). While UX focuses on the entire product (the experience associated with it, if you will), UI focuses only how how the product looks. They’re the ones who make pretty buttons and icons.
+UI, or User Interface, design is probably the second most well known design term. You’ll often see job titles such as UI/UX or UX/UI designer. Although the fields of user experience and user interface design are closely related, [they aren’t the same](http://www.helloerik.com/ux-is-not-ui). While UX focuses on the entire product (the experience associated with it, if you will), UI focuses only how how the product looks. They’re the ones who make pretty buttons and icons.
 
 ### Color
 Color helps to define the mood and feel of your project. Lighter topics (like a [Coachella flatpage](http://graphics.dailybruin.com/coachella-2017/)) may feature a more vibrant colors, while a more serious story (like a [Bridget O' Brien project](http://yolanda.dailybruin.com) dealing with typhoon recovery) will tend to feature more muted colors.
 
-It's also important to utilize and recognize the difference between warmer and cooler colors. Read through [this article](https://thenextweb.com/dd/2015/04/07/how-to-create-the-right-emotions-with-color-in-web-design/) (**mandatory**) to see how different colors correpsond to different emotional responses.
+It's also important to utilize and recognize the difference between warmer and cooler colors. You can take a look at [this article](https://thenextweb.com/dd/2015/04/07/how-to-create-the-right-emotions-with-color-in-web-design/) to see how different colors correpsond to different emotional responses.
 
 Don't go overboard on color! The article linked above has a section on color schemes, and gives you a few ways you can combine different colors in your project. [Adobe Color CC](https://color.adobe.com) is a really useful tool that can help you pick color schemes that work well together.
 
@@ -47,7 +47,7 @@ Interaction design (IxD) involves how a user interacts with a product. This also
 A big part of interaction design I worked on this summer was thinking about web form design. A lot of research has gone into how a form is designed, a completed form translates directly into a completed sale for many companies. Simple details such as  where labels are placed and how many fields are in a form can drastically affect user conversion.
 
 ## Accessibility
-A big part of creating a product that’s often ignored (and really shouldn’t be) is accessibility. Part of this is [technical](https://developer.mozilla.org/en-US/docs/Web/Accessibility) (_optional_), but part of accessibility is design: see if your product is still usable without color or with a screen reader or without a mouse.
+A big part of creating a product that’s often ignored (and really shouldn’t be) is accessibility. Part of this is [technical](https://developer.mozilla.org/en-US/docs/Web/Accessibility), but part of accessibility is design: see if your product is still usable without color or with a screen reader or without a mouse.
 
 Accessibility ties in with interaction design, usability, and UI design.
 
@@ -56,9 +56,6 @@ Information architecture is a fancy way for talking about how a site is laid out
 
 ## User Research and Interviews
 After working on a project for about 2–4 weeks, it becomes impossible to design for it; you’ve become too focused on it to know how a user would use it. Thus, doing research—watching your users actually use your site to perform tasks and asking them questions about what they like and don’t—is absolutely critical if you want your site to be useful.
-
-## Human-Computer Interaction
-While most other design fields mentioned so far have been very applied, Human-Computer Interaction (HCI), is much more theoretical. It researches how people design and use technology, utilizing multiple disciplines in the process: computer science, psychology, sociology, cognitive science, design, and many more fields.
 
 ## TL;DR
 Design is a huuuuuuge field. But even if you aren't planning on focusing on design, you should know the basics of UX and UI design, accessibility, information architecture, and usability.
@@ -79,8 +76,8 @@ Design is a huuuuuuge field. But even if you aren't planning on focusing on desi
 
 #### Typography
 - [Helvetica](http://www.hustwit.com/category/helvetica/)
-- [Practical Typography](https://practicaltypography.com): An in-depth guide to the ins and outs of typography. Written by a UCLA alumnus! Checking out the [key rules](https://practicaltypography.com/summary-of-key-rules.html) is (**mandatory**)
-- [Smart Quotes for Smart People](http://smartquotesforsmartpeople.com) (**mandatory**)
+- [Practical Typography](https://practicaltypography.com): An in-depth guide to the ins and outs of typography. Written by a UCLA alumnus!
+- [Smart Quotes for Smart People](http://smartquotesforsmartpeople.com) 
 - [Elements of Typographic Style](https://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=dp_ob_title_bk): _The_ book on typography.
 
 ### Usability
@@ -90,11 +87,11 @@ Design is a huuuuuuge field. But even if you aren't planning on focusing on desi
 ### Interaction Design
 - [Complete Beginner’s Guide to Interaction Design](http://www.uxbooth.com/articles/complete-beginners-guide-to-interaction-design/)
 - [Web Form Design](https://www.lukew.com/resources/web_form_design.asp)
-- [Design Better Forms](https://uxdesign.cc/design-better-forms-96fadca0f49c)
+- Design Better Forms](https://uxdesign.cc/design-better-forms-96fadca0f49c)
 
 ### Accesibility
-- [7 Things Every Designer Needs to Know about Accessibility](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b)
-- [Accessibility Basics](https://www.usability.gov/what-and-why/accessibility.html)
+- [7 Things Every Designer Needs to Know about Accessibility](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b) (**mandatory**)
+- [Accessibility Basics](https://www.usability.gov/what-and-why/accessibility.html) (**mandatory**)
 
 ### Information Architecture
 - [Complete Beginner’s Guide to Information Architecture](http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/#methodologies)
@@ -103,6 +100,3 @@ Design is a huuuuuuge field. But even if you aren't planning on focusing on desi
 ### User Research and Interviews
 - [Complete Beginner’s Guide to UX Research](http://www.uxbooth.com/articles/complete-beginners-guide-to-design-research/#books)
 - [Rocket Surgery Made Easy](http://www.sensible.com/rsme.html)
-
-### HCI
-- [The Designer’s Guide to HCI](https://blog.prototypr.io/the-rise-of-human-computer-interaction-hci-823dd6286e1d)
