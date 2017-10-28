@@ -11,7 +11,7 @@ These are the main advantages of Sass are as follows. Check out all these (**man
 - [Operators](http://sass-lang.com/guide#topic-8)
 
 ## Compiling
-Browsers only understand Sass, not CSS, so all Sass code must be compiled to CSS. This is handled automatically by the flatpage template!
+Browsers only understand CSS, not Sass, so all Sass code must be compiled to CSS. This is handled automatically by the flatpage template!
 
 ## TL;DR
 Sass is a cool extension to CSS that you should use! Browsers only understand CSS, though, so make sure you compile it to CSS first!
