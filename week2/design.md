@@ -87,7 +87,7 @@ Design is a huuuuuuge field. But even if you aren't planning on focusing on desi
 ### Interaction Design
 - [Complete Beginner’s Guide to Interaction Design](http://www.uxbooth.com/articles/complete-beginners-guide-to-interaction-design/)
 - [Web Form Design](https://www.lukew.com/resources/web_form_design.asp)
-- Design Better Forms](https://uxdesign.cc/design-better-forms-96fadca0f49c)
+- [Design Better Forms](https://uxdesign.cc/design-better-forms-96fadca0f49c)
 
 ### Accesibility
 - [7 Things Every Designer Needs to Know about Accessibility](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b) (**mandatory**)
