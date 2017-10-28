@@ -69,7 +69,6 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [Interaction Design](week2/design.md#interaction-design)
   - [Information Architecture](week2/design.md#information-architecture)
   - [User Research and Interviews](week2/design.md#user-research-and-interviews)
-  - [Human-Computer Interaction](week2/design.md#human-computer-interaction)
   - [TL;DR](week2/design.md#tldr)
   - [Further Resources](week2/design.md#further-resources)
 - [Flatpages and the Flatpage Template](week2/flatpages.md)
