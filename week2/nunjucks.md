@@ -1,7 +1,7 @@
 # Nunjucks
 Hardcoding all HTML content can become a little tedious, espicially with content that is repeated (e.g., a menu bar or head tags). With HTML you'd need to manually copy these repeated elements and manually update each one when a change is made. Nunjucks allows use to reuse common HTML components!
 
-Nunjucks files end with the `.njk` extension.
+Nunjucks files end with the `.njk` extension. You'll also probably need a nunjucks language package for your editor. [This is](https://atom.io/packages/language-nunjucks) the one for Atom.
 
 ## Partials
 We can take commonly used parts of HTML and pull them out into smaller files. For example consider this webpage with a navigation bar and footer:
