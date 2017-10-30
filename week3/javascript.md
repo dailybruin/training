@@ -25,3 +25,5 @@ Read all [chapter 2](https://javascript.info/first-steps) on JavaScript basics!
 - [Arrays](https://javascript.info/array)
 - [Array Methods](https://javascript.info/array-methods)
 
+## TL;DR
+## Further Resources
