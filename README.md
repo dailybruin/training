@@ -95,22 +95,9 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 
 ### Week 3: JavaScript
 - **Review:** Flatpages
-- Javascript
-  - What is Javascript?
-    - History of Javascript
-    - Current Versions of ECMAScript
-    - ES6 Features
-  - Hello World
-  - Syntax
-  - Numbers
-  - Booleans
-  - Strings
-  - Control Flow
-  - Data Structures
-    - Arrays
-    - Objects
-  - Functions
-  - Classes
+- [Slack](week3/slack.md)
+- [Javascript](week3/javascript.md)
+- [ESLint]()
 - jQuery
   - When/When Not to Use jQuery
   - Syntax
