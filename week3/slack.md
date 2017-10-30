@@ -57,4 +57,4 @@ The DB Slack has a lot of channels. Here are some that you might find useful:
 - #humansofdb
 
 ## TL;DR
-## Further Resources
+Use Slack! It's fun.
