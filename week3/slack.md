@@ -36,6 +36,9 @@ The DB Slack has a lot of channels. Here are some that you might find useful:
 - #prime-fix-17
 - #prime-devs
 - #design-tools
+- #interview-scheduler
+- #snowfall-it
+- #kerckhoff
 
 #### Other
 - #cry-over-interviews
@@ -57,4 +60,6 @@ The DB Slack has a lot of channels. Here are some that you might find useful:
 - #humansofdb
 
 ## TL;DR
-Use Slack! It's fun.
+Use Slack! It's fun. Here's what you have to do to get set up
+- Join #online and your project team channel. *Turn on notifications for these channels.*
+- Add a profile picture to your Slack profile
