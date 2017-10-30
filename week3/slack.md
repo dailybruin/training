@@ -11,6 +11,7 @@ You **must** have Slack downloaded on both your computer and phone with notifica
 - #online
 - Your project's channel
 - #all-staff
+- #online-interns-17
 
 We need to be able to contact you!
 
@@ -61,5 +62,5 @@ The DB Slack has a lot of channels. Here are some that you might find useful:
 
 ## TL;DR
 Use Slack! It's fun. Here's what you have to do to get set up
-- Join #online and your project team channel. *Turn on notifications for these channels.*
+- Join #online, #online-interns-17 and your project team channel. *Turn on notifications for these channels.*
 - Add a profile picture to your Slack profile
