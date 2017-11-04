@@ -97,8 +97,8 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 - **Review:** Flatpages
 - [Slack](week3/slack.md)
 - [Javascript](week3/javascript.md)
-- [ESLint]()
-- jQuery
+- [ESLint](https://eslint.org)
+- [jQuery](week3/jquery.md)
   - When/When Not to Use jQuery
   - Syntax
     - Selectors
