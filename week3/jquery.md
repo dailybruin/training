@@ -56,6 +56,7 @@ There are at _lots_ of other types of selectors, and you should check them out [
 Now that you know how to select elements, let's do something with them!
 ## Events
 ## AJAX
+AJAX stands for **A**snychrnous **J**ava **A**nd **X**ML. Using the `XMLHTTPRequest` object, you'll be able to update content and communciate with servers asynchronously, or without refreshing the page.
 ## Common Events and Usage
 ## TL;DR
 ## Further Resources
