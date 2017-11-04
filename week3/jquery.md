@@ -25,9 +25,35 @@ or use multiple selectors by delineating them with commas:
 $('firstSelector, secondSelector, thirdSelector')
 ```
 
-You can also utilize some more advanced types of selectors.
+You can also utilize some more advanced types of selectors. For example, if you wanted to select all even paragraphs in your page, you'd use `$('p:even')`. You can also do things like select all elements that match a certain value. Let's say that you wanted to select everything that had the value `special` from the following block.
+
+```html
+<div>
+  <label>
+    <input type="radio" name="newsletter" value="special">
+    <span>name?</span>
+  </label>
+</div>
+<div>
+  <label>
+    <input type="radio" name="newsletter" value="nah">
+    <span>value?</span>
+  </label>
+</div>
+<div>
+  <label>
+    <input type="radio" name="newsletter" value="special">
+    <span>value?</span>
+  </label>
+</div>
+```
+
+You'd use `$('input[value="special"]')` to do that.
+
+There are at _lots_ of other types of selectors, and you should check them out [here](https://api.jquery.com/category/selectors/).
 
 ## Manipulating Elements
+Now that you know how to select elements, let's do something with them!
 ## Events
 ## AJAX
 ## Common Events and Usage
