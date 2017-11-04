@@ -105,8 +105,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - Events
   - Common Effects and Uses
 - **Review:** Flatpages with JavaScript
-- d3
-  - SVG
+- [d3](week3/d3.md)
 - **Review:** The Stack
 
 ### Week 4
