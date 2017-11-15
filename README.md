@@ -8,6 +8,7 @@ _Daily Bruin Online, Fall 2017_
 * Sunday, 9am - 1pm October 22 2017 @ Ackerman Viewpoint Conference Room
 * Saturday, 10am - 3pm October 28 2017 @ Royce 154
 * Saturday, 10am - 3pm November 4 2017 @ Public Affairs 2232
+* Saturday, 10:30am - 3pm November 18 2017 @ Daily Bruin Office
 
 **Attendance:** Attending all trainings (and the media-law training) are all **mandatory**. If you can't make any of the trainings for any reason, let us know ASAP.  
 **Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.  
