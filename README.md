@@ -109,7 +109,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 - **Review:** The Stack
 
 ### Week 4
-- How the Internet Works, Review
+- [How the Internet Works](week4/internet.md), Review
 - RESTful APIs
 - JSON
 - Python
