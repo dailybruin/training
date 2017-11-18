@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: db-training
+    command: jupyter notebook /notebooks --ip=0.0.0.0 --allow-root
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/notebooks

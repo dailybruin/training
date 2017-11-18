@@ -111,9 +111,8 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 
 ### Week 4
 - [How the Internet Works](week4/internet.md), Review
-- RESTful APIs
-- JSON
-- Python
+- [RESTful APIs](week4/api.md)
+- [Python](week4/python.md)
   - Hello World
   - Syntax
   - Numbers
