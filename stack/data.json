@@ -1,0 +1,22 @@
+[
+  {
+    "food": "apple",
+    "price": 5
+  },
+  {
+    "food": "banana",
+    "price": 6
+  },
+  {
+    "food": "orange",
+    "price": 2
+  },
+  {
+    "food": "peach",
+    "price": 8
+  },
+  {
+    "food": "watermelon",
+    "price": 10
+  }
+]
