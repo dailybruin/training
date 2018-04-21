@@ -18,7 +18,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 
 ## Outline
 ### Week 1: Setup, HTML, Git, CSS
-- [Intorduction to Journalism](week1/journalism.md)
+- [Introduction to Journalism](week1/journalism.md)
 - [Tools](week1/tools.md)
   - [Text Editor](week1/tools.md#text-editor)
   - [Package Manager](week1/tools.md#package-manager)
