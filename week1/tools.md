@@ -1,5 +1,5 @@
 ## Tools
-Developers use a wide variety of apps and tools in order to be most productive while working. Every developer has their own preferred setup and favorite tools that is often shaped by years of experience. Since knowing what applications to use can be daunting to beginers, we have some reccomendations on tools to use. If you don't have any or much dev experience, we'd reccomend using the tools listed below, but you don't have to. 
+Developers use a wide variety of apps and tools in order to be most productive while working. Every developer has their own preferred setup and favorite tools that is often shaped by years of experience. Since knowing what applications to use can be daunting to beginners, we have some recommendations on tools to use. If you don't have any or much dev experience, we'd recommend using the tools listed below, but you don't have to. 
 
 ### Text Editor
 In order to build websites, you need to be able to write code. In order to write code, you need to be able to edit text efficiently. This is where a [text editor](https://en.wikipedia.org/wiki/Text_editor) comes in.
