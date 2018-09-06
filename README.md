@@ -1,15 +1,11 @@
 # Online Training Syllabus
 
-_Daily Bruin Online, Fall 2017_
+_Daily Bruin Online, Fall 2018_
 
 **Instructor:** Byron Lutz  
 **Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.     
 **Time and Locations:** 
-* Sunday, 9am - 1pm October 22 2017 @ Ackerman Viewpoint Conference Room
-* Saturday, 10am - 3pm October 28 2017 @ Royce 154
-* Saturday, 10am - 3pm November 4 2017 @ Public Affairs 2232
-* Saturday, 10:30am - 3pm November 18 2017 @ Daily Bruin Office
-
+* TBD
 **Attendance:** Attending all trainings (and the media-law training) are all **mandatory**. If you can't make any of the trainings for any reason, let us know ASAP.  
 **Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.  
 
@@ -17,8 +13,7 @@ _Daily Bruin Online, Fall 2017_
 This cool statistician and computer scienctist named Edward Tufte [really hates Powerpoints](https://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf) (_optional_). Instead he advocates that the best way to present technical information to a group is to distribute written reports to be read by everyone and then have the presenter use the meeting time to review and answer questions on that topic. So we're going to do that for Online training sessions! We'll assume that you've done the required reading and set up before every session and then review, answer questions, and work on real examples in the session. Moral of the story: read all of the notes before each weekly session. Read the links marked (**mandatory**). If you have time, check out the (_optional_) links too—they're cool!
 
 ## Outline
-### Week 1: Setup, HTML, Git, CSS
-- [Introduction to Journalism](week1/journalism.md)
+### Week 0: Tools, HTML, Git, & CSS
 - [Tools](week1/tools.md)
   - [Text Editor](week1/tools.md#text-editor)
   - [Package Manager](week1/tools.md#package-manager)
@@ -47,6 +42,7 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
 - [Homework 1: A Personal Site](week1/homework1.md)
 
 ### Week 2: Everything You Ever Wanted to Know About Frontend Web Development That Isn't JavaScript
+- [Introduction to Journalism](week1/journalism.md)
 - **Review:** Personal sites
 - [Emmet](week2/emmet.md)
   - [TL;DR](week2/emmet.md#tldr)
