@@ -1,6 +1,6 @@
-# Online Training Syllabus
+# Daily Bruin Online Training Syllabus
 
-_Daily Bruin Online, Fall 2018_
+_Last updated for Fall 2018_
 
 **Instructor:** Byron Lutz  
 **Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.     
