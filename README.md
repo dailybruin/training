@@ -1,12 +1,15 @@
+
+
 # Daily Bruin Online Training Syllabus
 
 _Last updated for Fall 2018_
 
-**Instructor:** Byron Lutz  
+**Instructor:** Byron Lutz 
 **Materials:** Bring your laptop and a charger to each training session. All software we use is free and mostly open-source.     
 **Time and Locations:** 
+
 * TBD
-**Attendance:** Attending all trainings (and the media-law training) are all **mandatory**. If you can't make any of the trainings for any reason, let us know ASAP.  
+**Attendance:** Attending all trainings (and the media-law training) are all **mandatory**. If you can't make any of the trainings for any reason, let us know ASAP. 
 **Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also available to help you out.  
 
 ## A Note on These Notes and Links
@@ -22,6 +25,8 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [Further Resources](week1/tools.md#further-resources)
 - [HTML](week1/html.md)
   - [Hello World](week1/html.md#hello-world)
+  - [Emmet](week0/emmet.md)
+  - Accesible and Semantic HTML
   - [Advanced HTML](week1/html.md#advanced-html)
   - [TL;DR](week1/html.md#tldr)
   - [Further Resources](week1/html.md#further-resources)
@@ -37,78 +42,43 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - [Git GUIs](week1/git.md#git-guis)
 - [CSS](week1/css.md)
   - [CSS Introduction](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/) (From MDN)
+  - Flexbox
+  - Grid
   - [TL;DR](week1/css.md#tldr)
   - [Further Resources](week1/css.md#further-resources)
-- [Homework 1: A Personal Site](week1/homework1.md)
+- [Homework 0: A Personal Site](week0/homework0.md)
 
-### Week 2: Everything You Ever Wanted to Know About Frontend Web Development That Isn't JavaScript
+### Week 1: How to Build a News Feature
+
 - [Introduction to Journalism](week1/journalism.md)
+
 - **Review:** Personal sites
-- [Emmet](week2/emmet.md)
-  - [TL;DR](week2/emmet.md#tldr)
-  - [Further Resources](week2/emmet.md#further-resources)
-- [BEM](week2/bem.md)
-  - [Block](week2/bem.md#block)
-  - [Element](week2/bem.md#element)
-  - [Modifier](bem.md#modifier)
-  - [TL;DR](week2/bem.md#tldr)
-  - [Further Resources](week2/bem.md#further-resources)
-- [Foundation](week2/foundation.md)
-  - [Adding Foundation](week2/foundation.md#adding-foundation)
-  - [The Grid System](week2/foundation.md#the-grid-system)
-  - [Useful Components](week2/foundation.md#useful-components)
-  - [TL;DR](week2/foundation.md#tldr)
-  - [Further Resources](week2/foundation.md#further-resources)
-- [Web Design](week2/design.md) (is my passion)
+
+- Web Design
+
   - [UX](week2/design.md#ux)
   - [UI](week2/design.md#ui)
-  - [Usability](week2/design.md#usability)
-  - [Interaction Design](week2/design.md#interaction-design)
-  - [Information Architecture](week2/design.md#information-architecture)
-  - [User Research and Interviews](week2/design.md#user-research-and-interviews)
-  - [TL;DR](week2/design.md#tldr)
-  - [Further Resources](week2/design.md#further-resources)
-- [Flatpages and the Flatpage Template](week2/flatpages.md)
-  - [Gulp](week2/flatpages.md#gulp)
-  - [Technologies Used](week2/flatpages.md#the-gulpfile)
-  - [TL;DR](week2/flatpages.md#tldr)
-- [Stylelint](week2/stylelint.md)
-  - [Installation](week2/styelint.md#installation)
-  - [Configuration](week2/styelint.md#configuration)
-  - [TL;DR](week2/stylelint.md#tldr)
-  - [Further Resources](week2/stylelint.md#further-resources)
-- [Sass](week2/sass.md)
-  - [Advantages](week2/sass.md#advantages)
-  - [Compiling](week2/sass.md#compiling)
-  - [TL;DR](week2/sass.md#tldr)
-  - [Further Resources](week2/sass.md#further-resources)
-- [Nunjucks](week2/nunjucks.md)
-  - [Partials](week2/nunjucks.md#partials)
-  - [Templating](week2/nunjucks.md#templating)
-  - [Conditionals](week2/nunjucks.md#conditionals)
-  - [Compiling](week2/nunjucks.md#compiling)
-  - [TL;DR](week2/nunjucks.md#tldr)
-  - [Further Resources](week2/nunjucks.md#further-resources)
+    - [Usability](week2/design.md#usability)
+    - [Interaction Design](week2/design.md#interaction-design)
+    - [Information Architecture](week2/design.md#information-architecture)
+    - [User Research and Interviews](week2/design.md#user-research-and-interviews)
+    - [TL;DR](week2/design.md#tldr)
+    - [Further Resources](
 
-### Week 3: JavaScript
-- **Review:** Flatpages
-- [Slack](week3/slack.md)
-- [Javascript](week3/javascript.md)
-- [ESLint](https://eslint.org)
-- [jQuery](week3/jquery.md)
-  - When/When Not to Use jQuery
-  - Syntax
-    - Selectors
-  - Events
-  - Common Effects and Uses
-- **Review:** Flatpages with JavaScript
-- [d3](week3/d3.md)
-- **Review:** The Stack
+- JavaScript
 
-### Week 4
-- [How the Internet Works](week4/internet.md), Review
-- [RESTful APIs](week4/api.md)
+  - [TL;DR](week2/emmet.md#tldr)
+  - [ESLint](https://eslint.org)
+  - [Further Resources](week2/emmet.md#further-resources)
+
+- React
+
+- GraphQL
+
+- Gatsby
+
 - [Python](week4/python.md)
+
   - Hello World
   - Syntax
   - Numbers
@@ -122,9 +92,46 @@ This cool statistician and computer scienctist named Edward Tufte [really hates 
   - Functions
   - Classes
 
-### Week 5
-- Django
-- SQL
+- Not Covered: Previous ways to do flatpages
 
-## 
+  - [BEM](week2/bem.md)
+  - Nunjucks
+  - [Sass](week2/sass.md)
+  - [Foundation](week2/foundation.md)
+
+  - Gulp
+  - [jQuery](week3/jquery.md)
+
+
+
+  **Review:** The Stack
+
+
+
+### Week 2 (Software Engineering)
+
+- API Design
+  - REST
+  - GraphQL
+- Databases
+  - Non-relational
+  - Relational
+- Bridging the Gap: Web Frameworks
+  - Django
+  - Express
+- Docker
+
+
+
+### Week 2 (Data Journalism)
+
+- [d3](week3/d3.md)
+
+
+
+
+
+### Week 3
+
+
  [A Roadmap to Web Development in 2017](https://github.com/kamranahmedse/developer-roadmap)
