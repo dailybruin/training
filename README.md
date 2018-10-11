@@ -15,17 +15,17 @@ available to help you out.
 
 This training is designed to be divided into small 1–2 hour talks.
 
-1. Web Development Tools and Git
-1. HTML & CSS
-1. Introduction to Journalism
-1. Web Design
-1. JavaScript, TypeScript, React, Gatsby
-1. Python
-1. APIs: REST and GraphQL
-1. Databases
-1. Web Frameworks with Express and Django
-1. Docker, Continuous Integration, and Deployments
-1. Introduction to Journalism 2: Data Journalism Edition
-1. Data Cleaning and Analysis
-1. Web Data Visualizations with Chart.js and d3
-1. Writing Data Stories
+1. [Web Development Tools and Git](/tools-and-git)
+1. [HTML & CSS](/html-and-css)
+1. [Introduction to Journalism](/journalism)
+1. [Web Design](/web-design)
+1. [JavaScript](/javascript)
+1. [Advanced JavaScript](/javascript)
+1. [Python](/python)
+1. [Web Frameworks with Express and Django](/web-frameworks)
+1. [Databases](/databases)
+1. [Docker and Deployments](/docker)
+1. [Introduction to Journalism 2: Data Journalism Edition](/journalism)
+1. [Data Cleaning and Analysis](/data-analysis)
+1. [Web Data Visualizations with Chart.js and d3](/web-data-viz)
+1. [Writing Data Stories](/journalism)
