@@ -1,6 +1,4 @@
-# Daily Bruin Online Training 0
-
-
+# Session 0 – Tools, HTML, CSS, Git
 
 ## Outline
 
@@ -20,7 +18,7 @@
     - Text
     - Multimedia
     - Semantic HTML
-    -  Accessible HTML
+    - Accessible HTML
 
 - CSS
 

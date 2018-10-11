@@ -1,4 +1,4 @@
-# Design
+# Introductory Web Design
 
 While knowing the technical skills to create a project is essential to your time
 here at the Daily Bruin, how you present your projects to our readers is also
@@ -112,7 +112,9 @@ Make sure that your sites scale well to mobile. Over 50% of the Bruin's traffic
 now comes from mobile devices, so its important that users have the best
 experience possible, regardless of the device that they're using. Front end
 frameworks like [Foundation](https://foundation.zurb.com) can be realy helpful
-for making your site mobile friendly.
+for making your site mobile friendly. More recently, though, using media queries
+directly has grow in popularity and frontend frameworks add complexity that
+isn't always needed.
 
 ## Interaction Design
 
@@ -199,9 +201,8 @@ information architecture, and usability.
 ### Accesibility
 
 - [7 Things Every Designer Needs to Know about Accessibility](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b)
-  (**mandatory**)
+
 - [Accessibility Basics](https://www.usability.gov/what-and-why/accessibility.html)
-  (**mandatory**)
 
 ### Information Architecture
 
