@@ -2,14 +2,6 @@
 
 ## Outline
 
-- Setting up your web development environment
-
-  - Text Editor
-  - Package Manager
-  - The Command Line
-  - TL;DR
-  - Further Resources
-
 - HTML
 
   - What is HTML?
@@ -28,8 +20,3 @@
   - Common CSS layouts
     - Flexbox
     - Grid
-
-- Git
-
-  - Installation
-  - Configuration
