@@ -1,31 +1,38 @@
 # Daily Bruin Online Training Syllabus
 
-_Last updated for Fall 2018_
+_Last updated for Fall 2019_
 
 **Instructors:** Byron Lutz
 
-**Materials:** Bring your laptop and a charger to each training session.
+**Materials:**
 
-All software we use is free and mostly open-source. **Time and Locations:**
+- Laptop
+- Charger
 
-**Office Hours:** By appointment! Email Byron! Mike, Nathan, and Hongyi are also
-available to help you out.
+**Time and Locations:** 
+
+- First Day: October 12, 2019 Kerckhoff Office
+- Second Day: Online: October 19, 2019 Kerckhoff Office
+- Second Day: The Stack: October 19, 2019 Ackerman
 
 ## Outline
 
-This training is designed to be divided into small 1–2 hour talks.
+### First Day
 
-1. [Web Development Tools and Git](/tools-and-git)
-1. [HTML & CSS](/html-and-css)
-1. [Introduction to Journalism](/journalism)
-1. [Web Design](/web-design)
-1. [JavaScript](/javascript)
-1. [Advanced JavaScript](/javascript)
-1. [Python](/python)
-1. [Web Frameworks with Express and Django](/web-frameworks)
-1. [Databases](/databases)
-1. [Docker and Deployments](/docker)
-1. [Introduction to Journalism 2: Data Journalism Edition](/journalism)
-1. [Data Cleaning and Analysis](/data-analysis)
-1. [Web Data Visualizations with Chart.js and d3](/web-data-viz)
-1. [Writing Data Stories](/journalism)
+1. [HTML and CSS](./html-and-css/README.md)
+   1. Accessibility
+2. Basic JavaScript
+3. Git
+
+### Second Day: Online
+
+1. Advanced JavaScript and Node.js
+2. React
+3. Django
+4. Systems Design
+   1. Client-Server
+   2. Databases
+   3. Docker and Deployment
+
+### Second Day: The Stack
+
