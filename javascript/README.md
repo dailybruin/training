@@ -7,6 +7,8 @@
 - What is JavaScript?
 - Variables
   - Types
+    - Arrays
+    - Objects
 - Control Flow
   - Conditionals
   - Iterations
@@ -147,5 +149,40 @@ while (i < 100) {
 
 
 
-## FUNctions :phone:
+## Functions :phone:
+
+Functions in JavaScript are almost analogous to their mathematical counterparts: they take in some input and return some output. But unlike mathematical functions, JS functions don't *have* to return something or take in anything. They can merely *do* something as well. Or nothing! Total freedom.
+
+In computer science, the "input" to a function is called its **arguments** or **parameters** and the "output" is called its **return value**.
+
+<details>
+  <summary>Pro-Tip!</summary>
+  Technically, the annotations for the input a function accepts (i.e. two integers, or a floating point value and a string, with an optional boolean) are called the "parameters", while the actual passed-in values are the "arguments."
+</details>
+
+JavaScript uses the `function` keyword most times:
+
+```javascript
+function add(a, b) {
+    return a + b;
+}
+```
+
+And you invoke merely calling the function name:
+
+```javascript
+const threePlusFour = add(3, 4);
+```
+
+JavaScript also supports **arrow functions**:
+
+```javascript
+const addArrow = (a, b) => {
+    return a + b;
+}
+// also equivalent is:
+const addArrowSlim = (a, b) => a + b;
+```
+
+*This is where JavaScript starts showing its functional programming roots!*
 
