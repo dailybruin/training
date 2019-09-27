@@ -1,5 +1,22 @@
 # Git
-Now that you know how to make web pages, its time to learn how to develop web pages collaboratively and iteratively. In order to do this without having to create a bunch of folders with titles like `v1.0`, `v1.1`, `v1.1-FIXED`, and email those to our team members every time we make a change, we use a piece of software called [Git](https://en.wikipedia.org/wiki/Git) (**mandatory**). Git is what’s called a version control system, which does exactly what it sounds like: manages and keeps track of changes to your code, so that it’s easier to keep track of, share, and revert changes. You can also run Git on a server, so that your team members can make changes, put those changes on the server, and allow you to download those changes so that everyone has the latest code. [GitHub](https://github.com) (**mandatory**) is probably the most popular Git server, and what the Daily Bruin uses to host all of our code.
+
+## Outline
+
+- What is Git?
+- Installation
+  - Windows
+  - Mac
+  - Linux
+- Configuration
+- Creating Repos
+- Cloning Repos
+- Making Changes
+- Branching
+- GitHub
+
+## What is Git?
+
+Now that you know how to make web pages, its time to learn how to develop web pages collaboratively and iteratively. In order to do this without having to create a bunch of folders with titles like `v1.0`, `v1.1`, `v1.1-FIXED`, and email those to our team members every time we make a change, we use a piece of software called [Git](https://en.wikipedia.org/wiki/Git). Git is what’s called a "version control system", which does exactly what it sounds like: manages and keeps track of changes to your code, so that it’s easier to keep track of, share, and revert changes. You can also run Git on a server, so that your team members can make changes, put those changes on the server, and allow you to download those changes so that everyone has the latest code. [GitHub](https://github.com) is the most popular Git server, and what the Daily Bruin uses to host all of our code.
 
 Let’s _git_ started!
 
@@ -25,14 +42,6 @@ git config --global user.name <Your Name Here>
 git config --global user.email <Your Email Here>
 ```
 
-You should also probably tell it what editor you use:
-
-```shell
-git config --global core.editor "atom --wait"
-```
-
-(If you're using a different editor, go [here](https://help.github.com/articles/associating-text-editors-with-git).)
-
 ## Creating Repositories
 
 The terminology for any project in Git is called a **repository**. To **initialize** a repository on your local computer, you can use the command:
@@ -41,7 +50,7 @@ The terminology for any project in Git is called a **repository**. To **initiali
 git init <Project Name>
 ```
 
-If you don’t specify a project name, i.e., run just `git init`, a repository will be initialized in your current working directory.
+If you don’t specify a project name, i.e., run just `git init`, a repository will be initialized in your current working directory. Do this when you already have a directory created that contains all your code and you are inside that directory on your command line. 
 
 A git repository is really just defined by a folder called `.git` that git uses to keep track of everything in the repository. If you want to keep all of the files in a repository but no longer have it be a repository, you can just delete the `.git` folder (i.e, `rm -rf .git`).
 
@@ -63,6 +72,7 @@ Now let’s get to the commands!
 - `git diff` shows all the file differences not yet staged.
 - `git diff --staged` shows all file differences between the staged files and last commit.
 - `git add <Your File(s)>` stages your file.
+  - `git add .` stages all untracked files.
 - `git commit -m "<Your Commit Message>"` commits your staged files with the commit message specified.
 - `git commit -a -m "<Your Commit Message>"` (or just `git commit -am "<Your Commit Message>"`) skips the staging process and just commits all changed files in your working directory.
 
@@ -93,46 +103,15 @@ Our branching scheme is based off of a couple of other popular models. If you're
 When a developer is done with their branch, they **merge** it back into another branch (almost always `master`). This is done with the `git merge --squash <Branch You Want to Merge Into the Current Branch>`. Be careful to remember the `--squash`! Git can merge branches in a couple of different ways, but the way we prefer to do it in DB is with `--squash`.
 
 ## GitHub
-As mentioned earlier, GitHub is where DB hosts all of our code. If you haven't already [go make a GitHub account](https://github.com)!(**mandatory** if you don't have an account)
+As mentioned earlier, GitHub is where DB hosts all of our code. If you haven't already [go make a GitHub account](https://github.com)! (**mandatory** if you don't have an account)
 
-In addition to just hosting Git, though, GitHub has a lot of cool features that make code collaboration easier. Read about these cool features (all are **mandatory**):
+In addition to just hosting Git, though, GitHub has a lot of cool features that make code collaboration easier (note that none of the below are inherent to Git itself). Read about these cool features:
 - [Customizing Your Profile](https://help.github.com/articles/customizing-your-profile/)
 - [Pull Requests](https://help.github.com/articles/about-pull-requests/), [Reviewing Pull Requests](https://help.github.com/articles/reviewing-changes-in-pull-requests/), and [Incorporating Pull Requests](https://help.github.com/articles/incorporating-changes-from-a-pull-request/)
 - [Issues](https://help.github.com/articles/managing-your-work-with-issues/)
 - [Projects](https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/)
 
-GitHub also gives away a lot of free stuff to students! Sign up for the [student developer pack](https://education.github.com/pack) (**mandatory**) if you haven't already!
-
-## Git Town
-Since all of these Git commands can get a little confusing, there's this really cool tool called [Git Town](http://www.git-town.com) (**mandatory**) that makes working with Git easier. Watch the video on the page to check it out!
-
-### Installing Git Town
-#### Windows
-For Windows, you'll want to go to Git Town's [releases page](https://github.com/Originate/git-town/releases) and download the appropriate Windows version.
-
-#### Mac
-Install it via Homebrew!
-```shell
-brew install git-town
-git town install-fish-autocompletion
-```
-
-For either platform, once you've installed Git Town, you'll want to run the alias command:
-```shell
-git town alias true
-```
-
-This makes it so that all Git Town commands don't need the `git town` prefix. (e.g., instead of typing `git town hack`, you can just type `git hack`)
-
-### Using Git Town
-Git Town adds [4 main commands](https://github.com/Originate/git-town#commands) (**mandatory**) that you can use:
-- `git hack`: Instead of creating a new branch with `git checkout -b`, create a new branch with `git hack` instead. It will make sure that this new branch is always branched from `master` and up to date.
-- `git sync`: Makes sure your branch is up to date with all other branches, and makes any merges nessecary.
-- `git new-pull-request`: Syncs your current branch, and makes a new pull request for that branch.
-- `git ship`: Syncs the branch, merges it into `master`, and deletes said branch.
-
-## Git GUIs
-Once you get a handle of it, the command line is probably the quickest way to interact with Git. However, remembering all these commands and concepts can be a lot, especially when you’re just trying to code. As a result, many GUI (Graphical User Interface) clients have been developed for Git. Our recommendation is [Tower](https://www.git-tower.com/mac/), which is paid but well worth the price, especially with the 50% student discount they give. [Sourcetree](https://www.sourcetreeapp.com/) and [GitKraken](https://www.gitkraken.com/)are good free alternatives, though, and as of recently, Github has been [integrating Git commands into Atom](http://blog.atom.io/2017/05/16/git-and-github-integration-comes-to-atom.html) (**mandatory**) so you don’t even have to leave your text editor. If you don’t know where to begin, start with the built in Git integration to Atom, then move to another tool if you find it doesn’t fit your or you need more power.
+GitHub also gives away a lot of free stuff to students! Sign up for the [student developer pack](https://education.github.com/pack) if you haven't already!
 
 ## TL;DR
 Keep track of all code you write in Git. You either initialize or clone a repopository, and make changes by creating a new branch and making commits on it. Once a branch is finished, you merge it back into `master`. There are a lot of tools to help with Git workflows such as GitHub, Git Town, and Git GUIs. How we maintain our code is essential so knowing Git well is an extremely valuable skill!
