@@ -99,6 +99,19 @@ DailyBruin.members = 500 + 1;
 console.log(DailyBruin.members); // prints "501"
 ```
 
+<details>
+  <summary>Const Objects?</summary>
+  If you are particularly observant, you may have noticed we declared the DailyBruin object above with "let" instead of "const." This was, in fact, totally unimportant and the only reason we did it is to avoid confusion about "const." But if you're really curious: buckle up!
+  <br>
+  "const" as noted above prevents <em>reassignment</em>, but actually totally allows <em>mutation</em>. However, the only time that difference is ever visible is with Objects (Arrays are a sub-type of Object). Mutating a number or string or boolean is the same as reassigning it (i.e. reassigning a variable from "true" to "false" is the same exact thing as changing it from "true" to "false"), however reassigning an Object is not the same thing as mutating it.
+  <br>
+  For example, if we actually did declare the Object above with "const," we could still totally do <pre>DailyBruin.members = 500 + 1;</pre> because this is <em>mutation</em>. We are not changing what DailyBruin refers to, we are merely changing the value of one of its properties. Go ahead! Try it yourself. However, we could <em>not</em> do <pre>
+  DailyBruin = {
+    members: 501
+  };
+  </pre> because that would be reassignment. In practice, you could change every single property of a supposedly "const" Object until it no longer resembles its original form. If you're looking to prevent this, look into <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze">Object.freeze()</a> instead.
+</details>
+
 
 
 ## Control Flow :arrows_counterclockwise:
