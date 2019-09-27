@@ -12,6 +12,7 @@ Now that you're a coding wizard, it's time to code with *other people*. :scream:
 - Configuration
 - Creating Repos
 - Cloning Repos
+- Staging
 - Making Changes
 - Helpful Commands
 - Branching
@@ -68,12 +69,20 @@ Most times, though, you aren’t the one creating a project; you’re working on
 git clone <Project Url>
 ```
 
-## Making Changes
+## Staging
 Once you’re in a repository, you can start making changes. However, before we get into the commands you’ll need, there’s one more important concept to cover: **staging**.
 
 The staging area in Git is an intermediate area between a modified file and a committed file. It results from the idea of what a commit should be: a distinct change to your code. A lot of the time, programmers make multiple unrelated logical changes to a file, and it’s kinda bad practice to commit unrelated changes in the same commit in case you need to roll back a commit later. 
 
 Enter staging. Before making a commit, you must "stage" all changes you make, and Git gives you the option to only stage individual lines or even chunks of a file, so that each commit contains only the related changes necessary.
+
+## Making Changes
+
+Making changes to staged files is called **committing** because you are committing that change to the repo. 
+
+### Best Practices
+
+It is best to keep commits *small* and *focused*. Ideally, each commit should make changes that only do one thing, to as few files as possible. Don't fragment them artificially just to reduce commit size, but do keep in mind that the more you commit at once, the harder it is to debug throughout Git history. It will also make the code's commit history look much nicer. :sparkles:
 
 Now let’s get to the commands!
 
@@ -82,7 +91,7 @@ Now let’s get to the commands!
 - `git status` lists all new, modified, and deleted files.
 - `git diff <commit-1> <commit-2>` shows all the differences between two commits.
 - `git diff --staged` shows all file differences between the staged files and last commit.
-- `git add <Your File(s)>` stages your file.
+- `git add <Your File(s)>` stages your file(s).
   - `git add .` stages all untracked files.
 - `git commit -m "<Your Commit Message>"` commits your staged files with the given commit message specified.
 - `git commit -a -m "<Your Commit Message>"` (or just `git commit -am "<Your Commit Message>"`) stages and commits all tracked files with the given commit message.
