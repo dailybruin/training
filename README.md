@@ -20,9 +20,8 @@ _Last updated for Fall 2019_
 ### First Day
 
 1. [HTML and CSS](./html-and-css/README.md)
-   1. Accessibility
-2. Basic JavaScript
-3. Git
+2. [Basic JavaScript](./javascript/README.md)
+3. [Git](./tools-and-git/git.md)
 
 ### Second Day: Online
 
