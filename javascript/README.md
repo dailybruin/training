@@ -13,6 +13,7 @@
   - Conditionals
   - Iterations
 - Functions
+- Modules
 
 ## What.JS?
 
@@ -156,7 +157,7 @@ Functions in JavaScript are almost analogous to their mathematical counterparts:
 In computer science, the "input" to a function is called its **arguments** or **parameters** and the "output" is called its **return value**.
 
 <details>
-  <summary>Pro-Tip!</summary>
+  <summary>Fun(ction) Fact</summary>
   Technically, the annotations for the input a function accepts (i.e. two integers, or a floating point value and a string, with an optional boolean) are called the "parameters", while the actual passed-in values are the "arguments."
 </details>
 
@@ -168,7 +169,7 @@ function add(a, b) {
 }
 ```
 
-And you invoke merely calling the function name:
+And you use/"invoke" the function by calling its name:
 
 ```javascript
 const threePlusFour = add(3, 4);
@@ -182,7 +183,61 @@ const addArrow = (a, b) => {
 }
 // also equivalent is:
 const addArrowSlim = (a, b) => a + b;
+
+// called the exact same way as "regular" functions
+const threePlusFour = addArrowSlim(3, 4);
 ```
 
 *This is where JavaScript starts showing its functional programming roots!*
+
+## Modules
+
+This is all good and everything, but what use is all of this if you can't use it! To use JavaScript, you need to save the code into a `.js` file. However, for most projects, having all your JavaScript code in one file would be unmaintainable, confusing, hard to read, and a mess in any version control system like Git. 
+
+To fix this, we usually keep a single file in charge of one thing, maybe it's a class definition, a complicated utility function, or a configuration object. How do we use this file in other files though? Modules!
+
+A **module** is simply a JavaScript file that exports one or more *things*. They can be variables or functions (remember: in JavaScript, functions are first class values just like numbers and strings). To define a module, we use the `export` keyword. If we are only exporting one thing, it's best practice to use `export default` for clarity.
+
+```javascript
+// File path: ~/DailyBruinTrainingExamples/JavaScript/sayHello.js
+
+function sayHello(name) {
+  console.log("Hello, " + name + "!");
+}
+
+export default sayHello
+```
+
+Now, time to use this super useful, complicated function! For this, we use the `import` keyword.
+
+```javascript
+// File path: ~/DailyBruinTrainingExamples/JavaScript/index.js
+
+import sayHelloFunction from "./sayHello.js"; // relative to the current directory "JavaScript"
+
+const myName = "Byron";
+sayHelloFunction(myName); // prints out "Hello, Byron!"
+```
+
+We can also have **named exports**. These must be imported with the name given in the source module.
+
+```javascript
+// File path: ~/DailyBruinTrainingExamples/JavaScript/sayGoodbye.js
+
+export function sayGoodbye(name) {
+  console.log("Goodbye, " + name + "!");
+}
+```
+
+And we must import them like this:
+
+```javascript
+// File path: ~/DailyBruinTrainingExamples/JavaScript/index.js
+
+// Notice we MUST call it sayGoodbye, not sayGoodbyeFunc or iLoveDogs123
+import { sayGoodbye } from "./sayGoodbye.js";
+
+const myName = "Byron";
+sayGoodbye(myName); // prints out "Goodbye, Byron!"
+```
 
